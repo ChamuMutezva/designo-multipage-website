@@ -1,0 +1,59 @@
+.HeaderControl {
+  position: relative;
+}
+.modal {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  background-color: #b99060;
+  width: 100%;
+  display: none;
+}
+.modal__menuList {
+  width: 87.2%;
+  margin: auto;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 32px;
+  padding-bottom: 48px;
+}
+.modal__menuList li {
+  text-align: left;
+}
+.modal__menuList a {
+  font-size: 1.5rem;
+  color: var(--pri-color-white);
+  line-height: 25px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.menu__ctrls--btn {
+  background: none;
+  border: none;
+}
+.nav {
+  display: flex;
+  width: 87.2%;
+  margin: 35px auto;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: block;
+  margin: auto;
+  width: 202px;
+}
+.menu__ctrls {
+  position: relative;
+}
+/*modal control button - close and open modal */
+.btn--close {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
