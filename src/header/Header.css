@@ -5,10 +5,10 @@
   position: absolute;
   top: 62px;
   left: 0;
-  background-color: #b99060;
-  width: 100%;
-  display: none;
+  background-color: var(--sec-color-dkgrey);
+  width: 100%;  
 }
+
 .modal__menuList {
   width: 87.2%;
   margin: auto;
@@ -18,6 +18,12 @@
   flex-wrap: nowrap;
   row-gap: 32px;
   padding-bottom: 48px;
+}
+.modalHide {
+  display: none;
+}
+.modalShow {
+  display: flex;
 }
 .modal__menuList li {
   text-align: left;
@@ -53,7 +59,55 @@
 /*modal control button - close and open modal */
 .btn--close {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -30px;
+  top: -10px;
+ /*display: none;*/
+}
+
+.closeBtn {
+  display: block;
+}
+.openBtn {
   display: none;
+}
+
+/* -------------------------
+            hero section
+ ------ -------------------------*/
+.hero {
+  width: 87.2%;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+.hero__container {
+  background-color: var(--pri-color-peach);
+}
+.hero__title {
+  font-size: 2rem;
+  line-height: 36px;
+  color: var(--pri-color-white);
+}
+.hero__summary {
+  font-size: 0.9rem;
+  color: var(--pri-color-white);
+  margin-top: 14px;
+  line-height: 25px;
+  letter-spacing: 0;
+  margin-bottom: 24px;
+}
+.hero__btn {
+  font-size: 0.9rem;
+  padding: 16.5px 28.5px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.hero__imageDisplay {
+  width: 100%;
+  background-image: url("../assets/home/desktop/image-hero-phone.png");
+  height: 573px;
+  background-repeat: no-repeat;
+  background-size: 170% 215%;
+  max-height: 100vh;
+  background-position: 50% 21%;
 }
