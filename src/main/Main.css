@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 24px;
 }
 .project {
   position: relative;
@@ -14,10 +14,11 @@
 }
 
 .project__summary {
+  padding: 9.5px 2.5px;
   position: absolute;
   z-index: 10;
   top: 35%;
-  left: 20%;
+  left: 15%;
   color: var(--pri-color-white);
 }
 
@@ -32,11 +33,16 @@
 	font-size: 1.75rem;
 	line-height: 36px;
 	letter-spacing: 1.4px;
-	font-weight: 600;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .project__btn {
 	color: var(--pri-color-white);
 	letter-spacing: 5px;
 	text-decoration: none;
-	font-weight: 600;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project__btn__img {
+	margin-left: 16px;
 }
