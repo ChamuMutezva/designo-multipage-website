@@ -1,0 +1,42 @@
+.projects {
+  width: 87.2%;
+  margin: auto;
+  padding-top: 120px;
+  /* background-image: url("../assets/shared/desktop/icon-right-arrow.svg"); */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.project {
+  position: relative;
+  flex-grow: 1;
+}
+
+.project__summary {
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  left: 20%;
+  color: var(--pri-color-white);
+}
+
+.project_img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  min-height: 250px;
+  border-radius: 6px;
+}
+.project__summary__title {
+	font-size: 1.75rem;
+	line-height: 36px;
+	letter-spacing: 1.4px;
+	font-weight: 600;
+}
+.project__btn {
+	color: var(--pri-color-white);
+	letter-spacing: 5px;
+	text-decoration: none;
+	font-weight: 600;
+}
