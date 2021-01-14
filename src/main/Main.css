@@ -30,19 +30,51 @@
   border-radius: 6px;
 }
 .project__summary__title {
-	font-size: 1.75rem;
-	line-height: 36px;
-	letter-spacing: 1.4px;
+  font-size: 1.75rem;
+  line-height: 36px;
+  letter-spacing: 1.4px;
   font-weight: 600;
   text-transform: uppercase;
 }
 .project__btn {
-	color: var(--pri-color-white);
-	letter-spacing: 5px;
-	text-decoration: none;
+  color: var(--pri-color-white);
+  letter-spacing: 5px;
+  text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
 }
 .project__btn__img {
-	margin-left: 16px;
+  margin-left: 16px;
+}
+
+/* ------------------------------
+      ADDITIONALINFO COMPONENT
+      ------------------------------- */
+
+.additionalInfo {
+  padding-top: 120px;
+  width: 87.2%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 80px;
+  padding-bottom: 121px;
+}
+.additionalInfo h3 {
+  font-size: 1.1rem;
+  font-family: "Jost", sans-serif;
+  line-height: 26px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.additionalInfo p {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+}
+.additionalInfo figcaption {
+  margin-top: 48px;
 }
