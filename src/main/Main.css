@@ -27,7 +27,7 @@
   width: 100%;
   margin: auto;
   min-height: 250px;
-  border-radius: 6px;
+  border-radius: 15px;
 }
 .project__summary__title {
   font-size: 1.75rem;
@@ -79,4 +79,9 @@
 }
 .additionalInfo figcaption {
   margin-top: 48px;
+}
+.additionalInfo__img {
+  background-image: url("../assets/shared/desktop/bg-pattern-small-circle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

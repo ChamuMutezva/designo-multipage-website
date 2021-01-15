@@ -100,20 +100,22 @@
   margin-bottom: 24px;
 }
 .hero__btn {
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   padding: 16.5px 28.5px;
   letter-spacing: 1px;
   font-weight: 600;
+  background-color: var(--pri-color-white);
+  border: none;
+  border-radius: 8px;
 }
 .hero__imageDisplay {
-  width: 100%;  
+  width: 100%;
   background-image: url("../assets/home/desktop/image-hero-phone.png");
   height: 458px;
   background-repeat: no-repeat;
-  background-size: 171%;  
+  background-size: 171%;
   background-position: 50% 21%;
   max-height: 100vh;
-  
 }
 .hero__image {
   display: block;
@@ -121,4 +123,39 @@
   width: 100%;
   transform: scale(1.7);
   padding-top: 60px;
+}
+/* ----------------------------
+        END OF MOBILE VERSION
+        -----------------------------------*/
+
+/*---------------------------------
+  TABLET VERSION
+    -------------------------------- */
+@media screen and (min-width: 720px) {
+  .modal {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    left: auto;
+    width: 48.5%;
+    background-color: var(--pri-color-white);
+  }
+
+  .modal__menuList {
+    display: flex;
+    flex-direction: row;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 45px;
+    justify-content: space-between;
+  }
+  .modal__menuList a {
+    font-size: 0.875rem;
+    color: var(--pri-color-white);
+    line-height: 14px;
+    color: var(--pri-color-black);
+    letter-spacing: 2px;
+    /* background-color: inherit; */
+  }
 }
