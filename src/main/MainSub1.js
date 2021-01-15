@@ -28,9 +28,9 @@ const MainSub1 = () => {
                            ${WebDesktopSmall} 541w , ${WebDesktopLarge} 541W`} />
                     <div className="project__summary">
                         <h2 className="project__summary__title">Web design</h2>
-                        <a href="" className="project__btn">View projects
-                        <img src={IconRightArrow} className="project__btn__img" />
-                        </a>
+                        <button className="project__btn">View projects
+                        <img src={IconRightArrow} className="project__btn__img" alt="web design"/>
+                        </button>
                     </div>
 
                 </div>
@@ -43,9 +43,9 @@ const MainSub1 = () => {
 
                     <div className="project__summary">
                         <h2 className="project__summary__title">App design</h2>
-                        <a href="" className="project__btn">View projects
-                        <img src={IconRightArrow} className="project__btn__img" />
-                        </a>
+                        <button className="project__btn">View projects
+                        <img src={IconRightArrow} className="project__btn__img" alt="app design" />
+                        </button>
                     </div>
 
                 </div>
@@ -57,9 +57,9 @@ const MainSub1 = () => {
                            ${DesignDesktop} 541w`} />
                     <div className="project__summary">
                         <h2 className="project__summary__title">Graphic design</h2>
-                        <a href="" className="project__btn">View projects
-                         <img src={IconRightArrow} className="project__btn__img" />
-                        </a>
+                        <button className="project__btn">View projects
+                         <img src={IconRightArrow} className="project__btn__img" alt="graphic design"/>
+                        </button>
                     </div>
                 </div>
             </div>

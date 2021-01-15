@@ -6,7 +6,7 @@ const MainSub2 = () => {
     return (
         <div className="additionalInfo">
             <figure>
-                <img src={Passionate} />
+                <img src={Passionate} alt="passionate" />
                 <figcaption>
                     <h3>
                         Passionate
@@ -20,7 +20,7 @@ const MainSub2 = () => {
             </figure>
 
             <figure>
-                <img src={Resourceful} alt=""/>
+                <img src={Resourceful} alt="resourceful"/>
                 <figcaption>
                     <h3>
                         Resourceful
@@ -34,7 +34,7 @@ const MainSub2 = () => {
             </figure>
 
             <figure>
-                <img src={Friendly} alt=""/>
+                <img src={Friendly} alt="friendly"/>
                 <figcaption>
                     <h3> Friendly</h3>
                     <p>

@@ -42,6 +42,8 @@
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
+  background-color: transparent;
+  border: none;
 }
 .project__btn__img {
   margin-left: 16px;

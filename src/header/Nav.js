@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import HeaderPrimary from "./HeaderPrimary"
-import Logo1 from '../assets/shared/desktop/logo-light.png'
+//import HeaderPrimary from "./HeaderPrimary"
+//import Logo1 from '../assets/shared/desktop/logo-light.png'
 import Logo from '../assets/shared/desktop/logo-dark.png'
 import Hamburger from '../assets/shared/mobile/icon-hamburger.svg'
 import CloseMenu from '../assets/shared/mobile/icon-close.svg'
@@ -26,7 +26,7 @@ const Navigation = () => {
             <div className="nav">
                 <div className="nav__controls">
                     <div className="logoContainer" aria-label="designo design">
-                        <a href="">
+                        <a href="/">
                             <img src={Logo} alt="designo landing page" className="logo" tabIndex="0" />
                         </a>
                     </div>
@@ -41,9 +41,9 @@ const Navigation = () => {
             
             <div className="modal">
                 <ul className={`modal__menuList ${ShowModal ? "modalHide" : "modalShow"}`}>
-                    <li tabIndex="0"><a href="">OUR COMPANY</a></li>
-                    <li tabIndex="0"><a href="">LOCATIONS</a></li>
-                    <li tabIndex="0"><a href="">CONTACT</a></li>
+                    <li tabIndex="0"><a href="/">OUR COMPANY</a></li>
+                    <li tabIndex="0"><a href="/">LOCATIONS</a></li>
+                    <li tabIndex="0"><a href="/">CONTACT</a></li>
                 </ul>
 
             </div>

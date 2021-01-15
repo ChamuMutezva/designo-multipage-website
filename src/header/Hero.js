@@ -1,5 +1,5 @@
-import HeroBackground from "../assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg"
-import HeroImg from '../assets/home/desktop/image-hero-phone.png'
+//import HeroBackground from "../assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg"
+//import HeroImg from '../assets/home/desktop/image-hero-phone.png'
 const Hero = () => {
     return (
         <div className="hero__container">

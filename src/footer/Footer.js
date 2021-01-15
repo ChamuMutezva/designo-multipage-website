@@ -21,14 +21,14 @@ const Footer = () => {
 
             <div class="mainFooter">
                 <div class="footerLogo__container">
-                    <img src={Logo} alt="" class="footerLogo" />
+                    <img src={Logo} alt="designo landing page" class="footerLogo" />
                 </div>
 
                 <div className="footer__menu">
                     <ul className="footer__menuList">
-                        <li tabIndex="0"><a href="">OUR COMPANY</a></li>
-                        <li tabIndex="0"><a href="">LOCATIONS</a></li>
-                        <li tabIndex="0"><a href="">CONTACT</a></li>
+                        <li tabIndex="0"><a href="/">OUR COMPANY</a></li>
+                        <li tabIndex="0"><a href="/">LOCATIONS</a></li>
+                        <li tabIndex="0"><a href="/">CONTACT</a></li>
                     </ul>
                 </div>
 
@@ -46,23 +46,23 @@ const Footer = () => {
 
                 <div className="socials">
                     <div>
-                        <a href=""> <img src={facebook} alt="" />  </a>
+                        <a href="/"> <img src={facebook} alt="facebook page" />  </a>
                     </div>
 
                     <div>
-                        <a href=""> <img src={instagram} alt="" />  </a>
+                        <a href="/"> <img src={instagram} alt="instagram page" />  </a>
                     </div>
 
                     <div>
-                        <a href=""> <img src={twitter} alt="" />  </a>
+                        <a href="/"> <img src={twitter} alt="twitter page" />  </a>
                     </div>
 
                     <div>
-                        <a href=""> <img src={pinterest} alt="" />  </a>
+                        <a href="/"> <img src={pinterest} alt="pinterest page" />  </a>
                     </div>
 
                     <div>
-                        <a href=""> <img src={youtube} alt="" />  </a>
+                        <a href="/"> <img src={youtube} alt="youtube page" />  </a>
                     </div>
                 </div>
 
