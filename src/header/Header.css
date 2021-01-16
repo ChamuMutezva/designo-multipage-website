@@ -188,6 +188,7 @@
     margin: 24px auto 30px;
   }
   .hero__imageDisplay {   
-    background-size: 90%;   
+    background-size: 90%;  
+    height: 460px; 
   }
 }

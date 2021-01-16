@@ -23,7 +23,7 @@ const MainSub1 = () => {
                 <div className="webdesign project">
                     <img className="project_img" src={WebMobile} alt="web design"
                         sizes="(min-width: 1080px) 780px,
-                            (min-width: 680px) 327px, 100%"
+                            (min-width: 680px) 580px, 100%"
                         srcSet={`${WebMobile} 327w, ${WebTablet} 689w,
                            ${WebDesktopSmall} 541w , ${WebDesktopLarge} 541W`} />
                     <div className="project__summary">

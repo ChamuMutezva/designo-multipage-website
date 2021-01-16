@@ -85,3 +85,46 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media screen and (min-width: 720px) {
+  .project_img {
+    min-height: 200px;
+  }
+  .projects {
+    padding-top: 122px;
+    width: 89.8%;
+  }
+  .project__summary {
+    left: 36%;
+  }
+  .project__summary__title {
+    font-size: 2.25rem;
+    line-height: 48px;
+    letter-spacing: 2px;    
+  }
+  .project__btn {
+    font-size: 0.9375rem;
+  }
+  .additionalInfo {   
+    width: 89.9%;   
+    row-gap: 32px; 
+  }
+
+  .additionalInfo figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .additionalInfo figcaption {    
+    text-align: left;
+    width: 63.6%;
+    margin-top: 0;
+  }
+  .additionalInfo h3 {
+    font-size: 1.25rem;  
+    margin-bottom: 16px;  
+  }
+
+}
