@@ -17,7 +17,7 @@ import './Main.css'
 
 const MainSub1 = () => {
     return (
-        <div class="main__container">
+        <div className="main__container">
 
             <div className="projects">
                 <div className="webdesign project">
