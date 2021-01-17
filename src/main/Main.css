@@ -108,6 +108,7 @@
   .additionalInfo {   
     width: 89.9%;   
     row-gap: 32px; 
+    padding-bottom: 328.5px;
   }
 
   .additionalInfo figure {
