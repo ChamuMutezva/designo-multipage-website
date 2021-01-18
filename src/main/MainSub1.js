@@ -21,11 +21,13 @@ const MainSub1 = () => {
 
             <div className="projects">
                 <div className="webdesign project">
-                    <img className="project_img" src={WebMobile} alt="web design"
-                        sizes="(min-width: 1080px) 780px,
-                            (min-width: 680px) 580px, 100%"
+                    <img className="project_img" src={WebDesktopLarge} alt="web design"               
+                        
+                        sizes="(min-width: 1080px) 541px,
+                         (min-width: 720px) 600px, 100vw" 
                         srcSet={`${WebMobile} 327w, ${WebTablet} 689w,
-                           ${WebDesktopSmall} 541w , ${WebDesktopLarge} 541W`} />
+                         ${WebDesktopLarge} 541w`}
+                            />
                     <div className="project__summary">
                         <h2 className="project__summary__title">Web design</h2>
                         <button className="project__btn">View projects
@@ -36,10 +38,11 @@ const MainSub1 = () => {
                 </div>
                 <div className="appdesign project">
                     <img className="project_img" src={AppMobile} alt="App design"
-                        sizes="(min-width: 1080px) 780px,
-                            (min-width: 680px) 580px , 100%"
+                        sizes="(min-width: 1080px) 541px,
+                            (min-width: 720px) 689px , 100vw"
                         srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
-                           ${AppDesktop} 541w`} />
+                           ${AppDesktop} 541w`}
+                            />
 
                     <div className="project__summary">
                         <h2 className="project__summary__title">App design</h2>
@@ -51,8 +54,8 @@ const MainSub1 = () => {
                 </div>
                 <div className="graphicDesign project">
                     <img className="project_img" src={DesignMobile} alt="graphic design"
-                        sizes="(min-width: 1080px) 780px,
-                            (min-width: 680px) 580px, 100%"
+                        sizes="(min-width: 1080px) 541px,
+                            (min-width: 720px) 689px, 100vw"
                         srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} />
                     <div className="project__summary">

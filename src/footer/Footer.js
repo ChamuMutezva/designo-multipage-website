@@ -7,21 +7,21 @@ import youtube from '../assets/shared/desktop/icon-youtube.svg'
 import './Footer.css'
 const Footer = () => {
     return (
-        <div class="footer">
+        <div className="footer">
             <aside>
-                <div class="aside__container">
-                    <h4 class="aside__title">Let’s talk about your project</h4>
-                    <p class="aside__summary">
+                <div className="aside__container">
+                    <h4 className="aside__title">Let’s talk about your project</h4>
+                    <p className="aside__summary">
                         Ready to take it to the next level? Contact us today and find out
                         how our expertise can help your business grow.
                     </p>
-                    <button class="aside__btn">Get in touch</button>
+                    <button className="aside__btn">Get in touch</button>
                 </div>
             </aside>
 
-            <div class="mainFooter">
-                <div class="footerLogo__container">
-                    <img src={Logo} alt="designo landing page" class="footerLogo" />
+            <div className="mainFooter">
+                <div className="footerLogo__container">
+                    <img src={Logo} alt="designo landing page" className="footerLogo" />
                 </div>
 
                 <div className="footer__menu">

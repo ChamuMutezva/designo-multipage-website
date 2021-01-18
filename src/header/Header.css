@@ -193,3 +193,40 @@
     height: 460px; 
   }
 }
+
+@media screen and (min-width: 1120px) {
+  .modal {
+    width: 29.5%;
+    margin-right: 130px;
+  }
+ 
+  .nav {
+       width: 76.2%;    
+  }
+  .hero__container {
+    width: 77.4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .hero {
+    width: 50%;
+    text-align: left;
+    padding-top: 0px;
+  }
+  .hero__title {
+    padding-left: 60px;
+    margin-top: -65px;
+  }
+  .hero__btn {    
+    margin-left: 60px;
+  }
+  .hero__imageDisplay {
+    padding-top: 0px;
+    background-position: 31% 8%;
+    width: 45%;
+    padding-bottom: 15%;
+    background-size: 128%;
+    margin-top: -15px;
+  }
+}

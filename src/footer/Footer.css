@@ -89,9 +89,9 @@ aside {
 }
 
 @media screen and (min-width: 720px) {
-  aside {    
-    background-size: 156%;   
-    top: -255px; 
+  aside {
+    background-size: 156%;
+    top: -255px;
   }
   .aside__title {
     font-size: 2.5rem;
@@ -105,12 +105,12 @@ aside {
     width: 75%;
     margin: auto;
   }
-  .aside__btn {   
-    padding: 19.5px 32.5px; 
-    margin-bottom: 60px;  
+  .aside__btn {
+    padding: 19.5px 32.5px;
+    margin-bottom: 60px;
   }
   .aside__container {
-    width: 85.7%;   
+    width: 85.7%;
     padding-top: 55px;
   }
   .mainFooter {
@@ -137,8 +137,26 @@ aside {
     justify-content: space-between;
     padding-top: 0;
   }
-  .socials {   
+  .socials {
     justify-content: space-between;
-    width: 82.5%;    
+    width: 82.5%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .aside__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .aside__summary {
+    grid-area: 2/1/2/1;
+    text-align: left;
+  }
+  .aside__btn {    
+    width: 156px;
+    grid-area: 2/2/2/3;
+  }
+  .aside__title {   
+    text-align: left;
   }
 }
