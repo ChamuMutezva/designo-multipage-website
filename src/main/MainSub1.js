@@ -21,11 +21,10 @@ const MainSub1 = () => {
 
             <div className="projects">
                 <div className="webdesign project">
-                    <img className="project_img" src={WebDesktopLarge} alt="web design"               
-                        
-                        sizes="(min-width: 1080px) 541px,
-                         (min-width: 720px) 600px, 100vw" 
-                        srcSet={`${WebMobile} 327w, ${WebTablet} 689w,
+                    <img className="project_img" src={WebMobile} alt="web design"    
+                        sizes="(min-width: 1090px) 341px,
+                         (min-width: 650px) 40vw,  50vw" 
+                        srcSet={`${WebMobile} 327w, ${WebTablet} 689w, ${WebDesktopSmall} 541w,
                          ${WebDesktopLarge} 541w`}
                             />
                     <div className="project__summary">
@@ -39,7 +38,7 @@ const MainSub1 = () => {
                 <div className="appdesign project">
                     <img className="project_img" src={AppMobile} alt="App design"
                         sizes="(min-width: 1080px) 541px,
-                            (min-width: 720px) 689px , 100vw"
+                            (min-width: 650px) 40vw , 50vw"
                         srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
                            ${AppDesktop} 541w`}
                             />
@@ -55,7 +54,7 @@ const MainSub1 = () => {
                 <div className="graphicDesign project">
                     <img className="project_img" src={DesignMobile} alt="graphic design"
                         sizes="(min-width: 1080px) 541px,
-                            (min-width: 720px) 689px, 100vw"
+                            (min-width: 650px) 40vw, 50vw"
                         srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} />
                     <div className="project__summary">

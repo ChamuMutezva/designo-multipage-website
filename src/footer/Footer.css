@@ -147,10 +147,13 @@ aside {
   .aside__container {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width: 88.5%;
+    padding-bottom: 25px;
   }
   .aside__summary {
     grid-area: 2/1/2/1;
     text-align: left;
+    margin-left: 100px;
   }
   .aside__btn {    
     width: 156px;
@@ -158,5 +161,9 @@ aside {
   }
   .aside__title {   
     text-align: left;
+    margin-left: 100px;
+  }
+  aside {   
+    top: -190px;
   }
 }
