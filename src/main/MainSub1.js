@@ -1,6 +1,6 @@
 import WebMobile from "../assets/home/mobile/image-web-design.jpg"
 import WebTablet from "../assets/home/tablet/image-web-design.jpg"
-import WebDesktopSmall from "../assets/home/desktop/image-web-design-small.jpg"
+// import WebDesktopSmall from "../assets/home/desktop/image-web-design-small.jpg"
 import WebDesktopLarge from "../assets/home/desktop/image-web-design-large.jpg"
 
 import AppMobile from "../assets/home/mobile/image-app-design.jpg"
