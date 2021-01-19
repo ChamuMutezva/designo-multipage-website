@@ -11,13 +11,7 @@ const Navigation = () => {
 
     const displayModal = () => {
         console.log("Menu close button clicked")
-        setShowModal(!ShowModal)
-        //const modal = document.querySelector('.modal')
-        //const openBtn = document.querySelector('.btn--open')
-       // const closeBtn = document.querySelector('.btn--close')
-        //modal.classList.toggle("modalShow")
-        //openBtn.classList.toggle("openBtn")
-        //closeBtn.classList.toggle("closeBtn")
+        setShowModal(!ShowModal)        
 
     }
 

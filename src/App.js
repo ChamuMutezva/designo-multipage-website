@@ -1,15 +1,15 @@
-//import logo from './logo.svg';
-import HeaderPrimary from './header/HeaderPrimary'
-import Main from './main/Main'
-import Footer from './footer/Footer'
+//import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+//import home from './homepage/home';
 import './App.css';
+import './header/Header.css'
+import Home from './homepage/home'
+import Navigation from './header/Nav'
 
 function App() {
   return (
-    <div className="App">         
-        <HeaderPrimary /> 
-        <Main/> 
-        <Footer/>  
+    <div className="App"> 
+        <Navigation />              
+         <Home />
     </div>
   );
 }

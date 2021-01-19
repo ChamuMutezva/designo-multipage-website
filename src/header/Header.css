@@ -2,13 +2,13 @@
   position: relative;
 }
 .modal {
-  position: absolute;
-  top: 62px;
-  left: 0;
-  background-color: var(--sec-color-dkgrey);
-  width: 100%;
+	position: absolute;
+	top: 96px;
+	left: 0;
+	background-color: var(--sec-color-dkgrey);
+	width: 100%;
+	z-index: 10;
 }
-
 .modal__menuList {
   width: 87.2%;
   margin: auto;
@@ -164,6 +164,9 @@
     letter-spacing: 2px;
     /* background-color: inherit; */
   }
+  .menu__ctrls--btn {
+    display: none;
+  }
 
   /* ------------hero section ------------------*/
   .hero__container {
@@ -188,20 +191,24 @@
     width: 77.9%;
     margin: 24px auto 30px;
   }
-  .hero__imageDisplay {   
-    background-size: 90%;  
-    height: 460px; 
+  .hero__imageDisplay {
+    background-size: 90%;
+    height: 460px;
   }
 }
 
 @media screen and (min-width: 1120px) {
+  .logo {
+    width: 196px;
+  }
   .modal {
     width: 29.5%;
     margin-right: 130px;
   }
- 
+
   .nav {
-       width: 76.2%;    
+    width: 76.2%;
+    margin: 64px auto 58px;
   }
   .hero__container {
     width: 77.4%;
@@ -218,7 +225,7 @@
     padding-left: 60px;
     margin-top: -65px;
   }
-  .hero__btn {    
+  .hero__btn {
     margin-left: 60px;
   }
   .hero__imageDisplay {
