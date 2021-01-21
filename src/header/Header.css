@@ -35,9 +35,6 @@
   text-decoration: none;
   letter-spacing: 2px;
 }
-.decoLinks {
-  display: none;
-}
 .menu__ctrls--btn {
   background: none;
   border: none;
@@ -96,7 +93,7 @@
 .hero__summary {
   font-size: 0.9rem;
   color: var(--pri-color-white);
-  margin-top: 14px;
+  margin-top: 24px;
   line-height: 25px;
   letter-spacing: 0;
   margin-bottom: 24px;

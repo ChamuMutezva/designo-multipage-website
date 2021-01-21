@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Logo from '../assets/shared/desktop/logo-dark.png'
 import facebook from '../assets/shared/desktop/icon-facebook.svg'
 import instagram from '../assets/shared/desktop/icon-instagram.svg'
@@ -26,9 +27,9 @@ const Footer = () => {
 
                 <div className="footer__menu">
                     <ul className="footer__menuList">
-                        <li tabIndex="0"><a href="/">OUR COMPANY</a></li>
-                        <li tabIndex="0"><a href="/">LOCATIONS</a></li>
-                        <li tabIndex="0"><a href="/">CONTACT</a></li>
+                        <li tabIndex="0"><Link to="/about">OUR COMPANY</Link></li>
+                        <li tabIndex="0"><Link to="/locations">LOCATIONS</Link></li>
+                        <li tabIndex="0"><Link to="/contact">CONTACT</Link></li>
                     </ul>
                 </div>
 

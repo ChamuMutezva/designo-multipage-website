@@ -14,6 +14,7 @@ aside {
   background-repeat: no-repeat;
   background-size: 220%;
   background-position: 39% 36%;
+  padding-bottom: 64px;
 }
 .aside__container {
   width: 85.4%;
@@ -26,31 +27,44 @@ aside {
   font-weight: 500;
   padding-bottom: 10px;
   margin-bottom: 6px;
+  text-align: center;
 }
 .aside__summary {
   font-size: 0.9rem;
   line-height: 25px;
+  text-align: center;
 }
 .aside__btn {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   background-color: var(--pri-color-white);
   padding: 17.5px 30.5px;
   outline: none;
   border: none;
   border-radius: 5px;
-  margin-bottom: 64px;
-  margin-top: 36px;
+  margin: 36px auto;
+  display: block;
 }
 .mainFooter {
   width: 87.2%;
   margin: -130px auto auto;
   padding-bottom: 60px;
 }
+.mainFooter::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #979797;
+    top: 38px;
+    left: 21px;
+}
 .footerLogo {
   filter: invert(100%) hue-rotate(171deg) brightness(100%);
   width: 62%;
+  display: block;
+  margin: auto;
 }
 .footer__menuList {
   width: 87.2%;
@@ -63,6 +77,9 @@ aside {
   row-gap: 32px;
   padding-bottom: 40px;
 }
+.footer__menuList li {
+  text-align: center;
+}
 .footer__menuList a {
   font-size: 0.875rem;
   color: var(--pri-color-white);
@@ -74,6 +91,7 @@ aside {
   font-size: 1rem;
   line-height: 26px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .socials {
   display: flex;
@@ -107,7 +125,7 @@ aside {
   }
   .aside__btn {
     padding: 19.5px 32.5px;
-    margin-bottom: 60px;
+    margin-bottom: 0 /*60px*/;
   }
   .aside__container {
     width: 85.7%;
@@ -120,11 +138,7 @@ aside {
     margin: -154px auto auto;
   }
   .mainFooter::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #979797;
+       width: 100%;   
     top: 38px;
     left: 21px;
   }
@@ -155,15 +169,15 @@ aside {
     text-align: left;
     margin-left: 100px;
   }
-  .aside__btn {    
+  .aside__btn {
     width: 156px;
     grid-area: 2/2/2/3;
   }
-  .aside__title {   
+  .aside__title {
     text-align: left;
     margin-left: 100px;
   }
-  aside {   
+  aside {
     top: -190px;
   }
 }
