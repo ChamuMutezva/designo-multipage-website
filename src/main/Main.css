@@ -131,6 +131,29 @@
 }
 
 @media screen and (min-width: 1120px) {
+  .mainSection {
+    position: relative;
+  }
+  .mainSection::after,  .mainSection::before{   ;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 500px;
+    background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
+    background-repeat: no-repeat;
+    z-index: -1;    
+  }
+  .mainSection::after {   
+    top: -20%;
+    left: 0 ;  
+    background-size: 100% 110%;   
+  }
+  .mainSection::before {
+    bottom: 8%;
+    right: 0px;      
+    background-size: 100% 100%;    
+    transform: rotate(180deg);
+  }
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;

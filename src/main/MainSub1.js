@@ -16,76 +16,72 @@ import DesignDesktop from "../assets/home/desktop/image-graphic-design.jpg"
 import IconRightArrow from "../assets/shared/desktop/icon-right-arrow.svg"
 
 import Webdesign from '../webdesign/webdesign'
+import Home from '../homepage/home'
 
 import './Main.css'
 
 const MainSub1 = () => {
-  /*  const [page, setPage] = useState('home')
-
-    const toPage = (page) => (event) => {
-        event.preventDefault()
-        setPage(page)
-    }
-*/
+    /*  const [page, setPage] = useState('home')
+  
+      const toPage = (page) => (event) => {
+          event.preventDefault()
+          setPage(page)
+      }
+  */
     return (
-        <Router>
-            <div className="main__container">
 
-                <div className="projects">
-                    <div className="webdesign project">
-                        <img className="project_img" src={WebMobile} alt="web design"
-                            sizes="(min-width: 1090px) 341px,
+        <div className="main__container">
+
+            <div className="projects">
+                <div className="webdesign project">
+                    <img className="project_img" src={WebMobile} alt="web design"
+                        sizes="(min-width: 1090px) 341px,
                          (min-width: 650px) 40vw,  50vw"
-                            srcSet={`${WebMobile} 327w, ${WebTablet} 689w, ${WebDesktopSmall} 541w,
+                        srcSet={`${WebMobile} 327w, ${WebTablet} 689w, ${WebDesktopSmall} 541w,
                          ${WebDesktopLarge} 541w`}
-                        />
-                        <div className="project__summary">
-                            <h2 className="project__summary__title">Web design</h2>
-                            <Link to="../webdesign" className="project__btn" >View projects
+                    />
+                    <div className="project__summary">
+                        <h2 className="project__summary__title">Web design</h2>
+                        <Link to="/webdesign" className="project__btn" >View projects
                         <img src={IconRightArrow} className="project__btn__img" alt="web design" />
-                            </Link>
-                        </div>
-
+                        </Link>
                     </div>
-                    <div className="appdesign project">
-                        <img className="project_img" src={AppMobile} alt="App design"
-                            sizes="(min-width: 1080px) 541px,
+
+                </div>
+                <div className="appdesign project">
+                    <img className="project_img" src={AppMobile} alt="App design"
+                        sizes="(min-width: 1080px) 541px,
                             (min-width: 650px) 40vw , 50vw"
-                            srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
+                        srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
                            ${AppDesktop} 541w`}
-                        />
+                    />
 
-                        <div className="project__summary">
-                            <h2 className="project__summary__title">App design</h2>
-                            <button className="project__btn">View projects
+                    <div className="project__summary">
+                        <h2 className="project__summary__title">App design</h2>
+                        <Link to="/appdesign" className="project__btn">View projects
                         <img src={IconRightArrow} className="project__btn__img" alt="app design" />
-                            </button>
-                        </div>
-
+                        </Link>
                     </div>
-                    <div className="graphicDesign project">
-                        <img className="project_img" src={DesignMobile} alt="graphic design"
-                            sizes="(min-width: 1080px) 541px,
+
+                </div>
+                <div className="graphicDesign project">
+                    <img className="project_img" src={DesignMobile} alt="graphic design"
+                        sizes="(min-width: 1080px) 541px,
                             (min-width: 650px) 40vw, 50vw"
-                            srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
+                        srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} />
-                        <div className="project__summary">
-                            <h2 className="project__summary__title">Graphic design</h2>
-                            <button className="project__btn">View projects
+                    <div className="project__summary">
+                        <h2 className="project__summary__title">Graphic design</h2>
+                        <Link to="/graphicdesign" className="project__btn">View projects
                          <img src={IconRightArrow} className="project__btn__img" alt="graphic design" />
-                            </button>
-                        </div>
+                        </Link>
                     </div>
                 </div>
-
-                <Switch>                    
-                    <Route path="/webdesign">
-                        <Webdesign />
-                    </Route>                   
-                </Switch>
-
             </div>
-        </Router>
+
+
+        </div>
+
     )
 }
 export default MainSub1

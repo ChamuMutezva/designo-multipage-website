@@ -2,7 +2,7 @@ import MainSub1 from './MainSub1'
 import MainSub2 from './MainSub2'
 const Main = () => {
     return(
-        <div>
+        <div className='mainSection'>
             <MainSub1 />
             <MainSub2 />
         </div>

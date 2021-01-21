@@ -35,7 +35,9 @@
   text-decoration: none;
   letter-spacing: 2px;
 }
-
+.decoLinks {
+  display: none;
+}
 .menu__ctrls--btn {
   background: none;
   border: none;
