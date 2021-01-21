@@ -2,7 +2,7 @@
 //import home from './homepage/home';
 import './App.css';
 import './header/Header.css'
-import Home from './homepage/home'
+//import Home from './homepage/home'
 import Navigation from './header/Nav'
 
 function App() {

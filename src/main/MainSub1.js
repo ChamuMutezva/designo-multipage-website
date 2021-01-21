@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import {  Link } from "react-router-dom"
 //import { useState } from 'react'
 import WebMobile from "../assets/home/mobile/image-web-design.jpg"
 import WebTablet from "../assets/home/tablet/image-web-design.jpg"
@@ -15,8 +15,6 @@ import DesignDesktop from "../assets/home/desktop/image-graphic-design.jpg"
 
 import IconRightArrow from "../assets/shared/desktop/icon-right-arrow.svg"
 
-import Webdesign from '../webdesign/webdesign'
-import Home from '../homepage/home'
 
 import './Main.css'
 
