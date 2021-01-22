@@ -1,7 +1,8 @@
+import AppdesignHeader from './app_design_header/Appdesignheader'
 const Appdesign = () => {
     return (
         <div className="appdesign">
-            <h1>App design section 🐃 </h1>
+            <AppdesignHeader />
         </div>
     )
 }

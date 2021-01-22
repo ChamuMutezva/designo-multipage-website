@@ -89,6 +89,7 @@
   font-size: 2rem;
   line-height: 36px;
   color: var(--pri-color-white);
+  font-weight: 600;
 }
 .hero__summary {
   font-size: 0.9rem;

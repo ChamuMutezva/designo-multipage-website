@@ -1,7 +1,8 @@
+import Graphicdesignheader from './graphic_design_header/GraphicDesignHeader'
 const GraphicDesign = () => {
     return (
         <div className="graphicDesign">
-            <h1>Graphic design 🍇 </h1>
+           <Graphicdesignheader />
         </div>
     )
 }

@@ -1,7 +1,10 @@
+import Hero from './web_design_header/WebDesignHeader'
+import Webdesignmain from './web_design_main/WebDesignMain'
 const Webdesign = () => {
     return (
         <div className="web">
-            <h1>Web design 🏑 </h1>
+            <Hero />
+            <Webdesignmain />
         </div>
     )
 }
