@@ -138,6 +138,7 @@ margin: auto;
 @media screen and (min-width: 1120px) {
   .mainSection {
     position: relative;
+    margin-top: 40px;
   }
   .mainSection::after,  .mainSection::before{   ;
     position: absolute;

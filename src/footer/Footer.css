@@ -167,7 +167,7 @@ aside {
   .aside__summary {
     grid-area: 2/1/2/1;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 30px;
   }
   .aside__btn {
     width: 156px;
@@ -175,9 +175,16 @@ aside {
   }
   .aside__title {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 33px;
   }
   aside {
     top: -190px;
+    width: 77.2%;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .mainFooter {
+    width: 77.2%;
+    margin: auto;
   }
 }
