@@ -43,22 +43,22 @@ aside {
   outline: none;
   border: none;
   border-radius: 5px;
-  margin: 36px auto;
+  margin: 36px auto 0;
   display: block;
 }
 .mainFooter {
   width: 87.2%;
-  margin: -130px auto auto;
+  margin: -114px auto auto;
   padding-bottom: 60px;
 }
 .mainFooter::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #979797;
-    top: 38px;
-    left: 21px;
+	position: absolute;
+	content: "";
+	width: 88%;
+	height: 1px;
+	background-color: #979797;
+	top: 320px;
+	left: 21px;
 }
 .footerLogo {
   filter: invert(100%) hue-rotate(171deg) brightness(100%);
@@ -69,7 +69,7 @@ aside {
 .footer__menuList {
   width: 87.2%;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
