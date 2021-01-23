@@ -1,3 +1,6 @@
+/*
+HOME FOOTER section 
+*/
 .footer {
   background-color: var(--pri-color-black);
   color: var(--pri-color-white);
@@ -52,13 +55,13 @@ aside {
   padding-bottom: 60px;
 }
 .mainFooter::before {
-	position: absolute;
-	content: "";
-	width: 88%;
-	height: 1px;
-	background-color: #979797;
-	top: 320px;
-	left: 21px;
+  position: absolute;
+  content: "";
+  width: 88%;
+  height: 1px;
+  background-color: #979797;
+  top: 320px;
+  left: 21px;
 }
 .footerLogo {
   filter: invert(100%) hue-rotate(171deg) brightness(100%);
@@ -138,7 +141,7 @@ aside {
     margin: -154px auto auto;
   }
   .mainFooter::before {
-       width: 100%;   
+    width: 100%;
     top: 38px;
     left: 21px;
   }
@@ -170,7 +173,7 @@ aside {
     margin-left: 30px;
   }
   .aside__btn {
-    width: 156px;
+    width: 165px;
     grid-area: 2/2/2/3;
   }
   .aside__title {
@@ -185,6 +188,27 @@ aside {
   }
   .mainFooter {
     width: 77.2%;
-    margin: auto;
+    margin: -46px auto auto;
+    row-gap: 32px;
+  }
+  .mainFooter::before {
+    width: 98%;
+    top: 55px;
+  }
+  .footerLogo {
+    margin-left: 0;
+  }
+  .footer__menuList,
+  .socials {
+    margin-right: 0;
+  }
+  .footer__menuList {
+    width: 50%;
+  }
+  .address1 {
+    justify-self: baseline;
+  }
+  .address {
+    text-align: left;
   }
 }
