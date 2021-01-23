@@ -1,3 +1,4 @@
+/*heading section, webdesign*/
 .hero__web {
     padding-bottom: 80px;
     padding-top: 100px;
@@ -6,3 +7,32 @@
     margin-bottom: 30px;
   }
   
+/*main section webdesign*/
+.additionalInfo__img__designs {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.additionalInfo__title {
+  font-size: 1.25rem;
+  padding-top: 32px;
+	letter-spacing: 5px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.additionalInfo__container {
+  background-color: #FDF3F0;
+  text-align: center;
+}
+.additionalInfo__desc {
+	font-size: 1rem;
+	line-height: 26px;
+	width: 82%;
+	text-align: center;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.additionalInfo__web {
+  padding-bottom: 0px
+}
