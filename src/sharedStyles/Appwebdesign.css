@@ -12,6 +12,7 @@
   width: 100%;
   display: block;
   margin: 0 auto;
+  border-radius: 15px 15px 0 0;
 }
 .additionalInfo__title {
   font-size: 1.25rem;
@@ -23,6 +24,7 @@
 .additionalInfo__container {
   background-color: #FDF3F0;
   text-align: center;
+  border-radius: 0 0 15px 15px;
 }
 .additionalInfo__desc {
 	font-size: 1rem;
@@ -34,5 +36,10 @@
 }
 
 .additionalInfo__web {
-  padding-bottom: 0px
+  padding-bottom: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.mainSectionWeb {
+  padding-bottom: 260px;
 }

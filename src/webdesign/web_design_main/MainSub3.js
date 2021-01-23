@@ -25,7 +25,7 @@ const MainSub3 = () => {
 
             <div className="projects">                
 
-                <MainProjectCard src={AppMobile} alt="app design"
+                <MainProjectCard src={AppMobile} alt="app design" className="appdesign"
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
                            ${AppDesktop} 541w`} name="APP DESIGN"
@@ -33,7 +33,7 @@ const MainSub3 = () => {
                     src2={IconRightArrow} alt2="proceed to view app designs"
                 />
 
-                <MainProjectCard src={DesignMobile} alt="graphic design"
+                <MainProjectCard src={DesignMobile} alt="graphic design" className="graphicdesign"
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} name="GRAPHIC DESIGN"

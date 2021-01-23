@@ -9,7 +9,7 @@ const Footer = () => {
                 how our expertise can help your business grow."
                 />
             </aside>
-            <MainFooter />
+            <MainFooter /> 
         </div>
     )
 }
