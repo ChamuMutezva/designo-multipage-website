@@ -25,13 +25,13 @@
   object-fit: cover;
 }
 .additionalInfo__title {
-	font-size: 1.25rem;
-	padding-top: 32px;
-	letter-spacing: 5px;
-	line-height: 26px;
-	margin-bottom: 15px;
-	font-weight: 600;
-	color: var(--pri-color-peach);
+  font-size: 1.25rem;
+  padding-top: 32px;
+  letter-spacing: 5px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: var(--pri-color-peach);
 }
 .additionalInfo__container {
   background-color: #fdf3f0;
@@ -56,7 +56,7 @@
   row-gap: 40px;
 }
 .mainSectionWeb {
-  padding-bottom: 260px;
+  padding-bottom: 300px;
 }
 .infoCard {
   width: min(327px, 100%);
@@ -64,4 +64,35 @@
 }
 .projects__web {
   padding-top: 100px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 850px) {
+  .infoCard {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .additionalInfo__img__designs {
+    width: 46.5%;
+    border-radius: 15px 0 0 15px;
+    height: 310px;
+  }
+  .additionalInfo__container {
+    border-radius: 0 15px 15px 0;
+  }
+  .infoCard .additionalInfo__title {
+    margin-top: 20%;
+  }
+  .projects__web {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .hero__containerWeb {
+    background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
+    background-size: 120%;
+    background-position: 0% 50%;
+  }
 }
