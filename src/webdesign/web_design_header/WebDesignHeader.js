@@ -1,18 +1,13 @@
 import '../../header/Header.css'
-import  '../Web.css'
+//import  '../Web.css'
 import '../../sharedStyles/Appwebdesign.css'
+import HeroShared from "../../sharedComponents/HeroShared"
 const Hero = () => {
     return (
-        <div className="hero__container">
-            <div className="hero hero__web">
-                <h2 className="hero__title">
-                    Web design
-                </h2>
-                <p className="hero__summary">
-                    We build websites that serve as powerful marketing tools
-                    and bring memorable brand experiences.
-                </p>
-            </div>
+        <div className="hero__container hero__containerWeb">
+            <HeroShared title="Web design" 
+            summary="We build websites that serve as powerful marketing tools
+                    and bring memorable brand experiences."/>
         </div>
     )
 }

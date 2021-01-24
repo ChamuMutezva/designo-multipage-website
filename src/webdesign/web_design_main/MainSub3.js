@@ -23,7 +23,7 @@ const MainSub3 = () => {
 
         <div className="main__container">
 
-            <div className="projects">                
+            <div className="projects projects__web">                
 
                 <MainProjectCard src={AppMobile} alt="app design" className="appdesign"
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"

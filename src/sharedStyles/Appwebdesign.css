@@ -1,45 +1,67 @@
 /*heading section, webdesign*/
 .hero__web {
-    padding-bottom: 80px;
-    padding-top: 100px;
-  }
-  .hero__web .hero__summary {
-    margin-bottom: 30px;
-  }
-  
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+.hero__web .hero__summary {
+  margin-bottom: 30px;
+}
+.hero__containerWeb {
+  background-size: 80%;
+  background-position: 100% 10%;
+}
+
 /*main section webdesign*/
+.main__container {
+  width: 87.2%;
+  margin: auto;
+}
 .additionalInfo__img__designs {
   width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: 15px 15px 0 0;
+  height: 320px;
+  object-fit: cover;
 }
 .additionalInfo__title {
-  font-size: 1.25rem;
-  padding-top: 32px;
+	font-size: 1.25rem;
+	padding-top: 32px;
 	letter-spacing: 5px;
-  line-height: 26px;
-  margin-bottom: 15px;
+	line-height: 26px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	color: var(--pri-color-peach);
 }
 .additionalInfo__container {
-  background-color: #FDF3F0;
+  background-color: #fdf3f0;
   text-align: center;
   border-radius: 0 0 15px 15px;
 }
 .additionalInfo__desc {
-	font-size: 1rem;
-	line-height: 26px;
-	width: 82%;
-	text-align: center;
+  font-size: 1rem;
+  line-height: 26px;
+  width: 82%;
+  text-align: center;
   margin: auto;
   padding-bottom: 32px;
 }
 
 .additionalInfo__web {
+  width: 100%;
+  padding-top: 94px;
   padding-bottom: 0px;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 .mainSectionWeb {
   padding-bottom: 260px;
+}
+.infoCard {
+  width: min(327px, 100%);
+  margin: auto;
+}
+.projects__web {
+  padding-top: 100px;
 }

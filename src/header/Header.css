@@ -2,12 +2,12 @@
   position: relative;
 }
 .modal {
-	position: absolute;
-	top: 96px;
-	left: 0;
-	background-color: var(--sec-color-dkgrey);
-	width: 100%;
-	z-index: 10;
+  position: absolute;
+  top: 96px;
+  left: 0;
+  background-color: var(--sec-color-dkgrey);
+  width: 100%;
+  z-index: 10;
 }
 .modal__menuList {
   width: 87.2%;
@@ -83,7 +83,8 @@
   background-color: var(--pri-color-peach);
   background-image: url("../assets/home/desktop/bg-pattern-hero-home.svg");
   background-repeat: no-repeat;
-  background-position: 0px 33%;
+  background-position: 0% 54%;
+  background-size: 170%;
 }
 .hero__title {
   font-size: 2rem;
@@ -228,7 +229,7 @@
   .hero__btn {
     margin-left: 60px;
   }
-  .hero__summary {    
+  .hero__summary {
     margin: 24px auto 40px;
   }
   .hero__imageDisplay {

@@ -78,6 +78,7 @@
   line-height: 26px;
   font-weight: 400;
   text-align: center;
+  color: var(--sec-color-dkgrey);
 }
 .additionalInfo figcaption {
   margin-top: 48px;

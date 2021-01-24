@@ -1,15 +1,14 @@
 import '../../sharedStyles/Appwebdesign.css'
+import HeroShared from "../../sharedComponents/HeroShared"
 const Graphicdesignheader = () => {
     return (
         <div className="hero__container">
-            <div className="hero hero__web">
-                <h2 className="hero__title">  App design </h2>
-                <p className="hero__summary">
-                    Our mobile designs bring intuitive digital solutions to your
-                    customers right at their fingertips.
-                 </p>
-            </div>
+            <HeroShared title="Graphic design" 
+            summary=" We deliver eye-catching branding materials that 
+            are tailored to meet your business objectives."/>
         </div>
     )
 }
 export default Graphicdesignheader
+
+ 
