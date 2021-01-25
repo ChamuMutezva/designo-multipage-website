@@ -1,4 +1,4 @@
-import './Footer.css'
+import  '../sharedStyles/Footer.css'
 const Aside = (props) => {
     return (
         

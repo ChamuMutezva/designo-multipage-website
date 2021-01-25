@@ -1,5 +1,7 @@
-import MainFooter from './MainFooter'
-import Aside from './AsideFooter'
+//import MainFooter from './MainFooter'
+//import Aside from './AsideFooter'
+import Aside from '../sharedComponents/AsideFooter'
+import MainFooter from '../sharedComponents/MainFooter'
 const Footer = () => {
     return (
         <div className="footer">

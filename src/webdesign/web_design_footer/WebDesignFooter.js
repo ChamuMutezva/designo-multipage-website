@@ -1,5 +1,7 @@
-import Aside from '../../footer/AsideFooter'
-import MainFooter from '../../footer/MainFooter'
+//import Aside from '../../footer/AsideFooter'
+import Aside from '../../sharedComponents/AsideFooter'
+import MainFooter from '../../sharedComponents/MainFooter'
+//import MainFooter from '../../footer/MainFooter'
 const WebDesignFooter = () => {
     return (
         <div className="footer">
