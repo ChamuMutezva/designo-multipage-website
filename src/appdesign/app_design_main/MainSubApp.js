@@ -4,9 +4,9 @@ import WebTablet from "../../assets/home/tablet/image-web-design.jpg"
 import WebDesktopSmall from "../../assets/home/desktop/image-web-design-small.jpg"
 //import WebDesktopLarge from "../../assets/home/desktop/image-web-design-large.jpg"
 
-import AppMobile from "../../assets/home/mobile/image-app-design.jpg"
-import AppTablet from "../../assets/home/tablet/image-app-design.jpg"
-import AppDesktop from "../../assets/home/desktop/image-app-design.jpg"
+// import AppMobile from "../../assets/home/mobile/image-app-design.jpg"
+// import AppTablet from "../../assets/home/tablet/image-app-design.jpg"
+// import AppDesktop from "../../assets/home/desktop/image-app-design.jpg"
 
 import DesignMobile from "../../assets/home/mobile/image-graphic-design.jpg"
 import DesignTablet from "../../assets/home/tablet/image-graphic-design.jpg"
