@@ -52,16 +52,16 @@
   padding-top: 94px;
   padding-bottom: 0px;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   gap: 20px;
-justify-content: start;
+  justify-content: start;
 }
 .mainSectionWeb {
   padding-bottom: 300px;
 }
 .infoCard {
   width: min(330px, 100%);
- /* margin: auto;*/
+   margin: auto;
 }
 .projects__web {
   padding-top: 100px;
@@ -98,6 +98,7 @@ justify-content: start;
     background-position: 0% 50%;
   }
   .main__container {
-    width: 77%;
+    width: 80%;
+    margin: auto;
   }
 }

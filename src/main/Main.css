@@ -98,7 +98,7 @@ margin: auto;
   }
   .projects {
     padding-top: 122px;
-    width: 89.8%;
+    width: 100%;
   }
   .project__summary {
     left: 36%;
@@ -164,7 +164,7 @@ margin: auto;
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 77.4%;
+    width: 86.4%;
     gap: 24px;
   }
   .webdesign {
