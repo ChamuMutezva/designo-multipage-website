@@ -52,18 +52,20 @@
   padding-top: 94px;
   padding-bottom: 0px;
   flex-direction: row;
-  flex-wrap: wrap;
-  row-gap: 40px;
+  flex-wrap: wrap;  
+  gap: 20px;
+justify-content: start;
 }
 .mainSectionWeb {
   padding-bottom: 300px;
 }
 .infoCard {
-  width: min(327px, 100%);
-  margin: auto;
+  width: min(330px, 100%);
+ /* margin: auto;*/
 }
 .projects__web {
   padding-top: 100px;
+  width: 100%;
 }
 
 @media screen and (min-width: 720px) and (max-width: 850px) {
