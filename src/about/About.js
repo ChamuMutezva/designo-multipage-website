@@ -1,7 +1,8 @@
+import Aboutpageheader from './about_page_header/AboutPageHeader.js'
 const About = () => {
     return(
         <>
-            <h1>About page</h1>
+          <Aboutpageheader />
         </>
     )
 }
