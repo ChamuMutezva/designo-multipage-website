@@ -1,5 +1,5 @@
 .projects {
-  width: 87.2%;
+  width: 100%;
   margin: auto;
   padding-top: 120px;
   /* background-image: url("../assets/shared/desktop/icon-right-arrow.svg"); */
@@ -64,13 +64,13 @@
   padding-bottom: 300.5px;
 }
 .additionalInfo h3 {
-  font-size: 1.1rem;
-  font-family: "Jost", sans-serif;
-  line-height: 26px;
-  letter-spacing: 5px;
-  font-weight: 500;
-  margin-bottom: 30px;
-  text-align: center;
+	font-size: 1.25rem;
+	font-family: "Jost", sans-serif;
+	line-height: 26px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-align: center;
 }
 .additionalInfo p {
   font-family: inherit;
@@ -92,8 +92,12 @@ margin: auto;
 }
 
 @media screen and (min-width: 720px) {
+  .main__container {
+    width: 89.8%;
+    margin: auto;
+  }
   .project_img {
-    min-height: 200px;
+    height: 200px;
     width: 100%;
   }
   .projects {
@@ -116,7 +120,7 @@ margin: auto;
     row-gap: 32px;
     padding-bottom: 328.5px;
   }
-
+ 
   .additionalInfo figure {
     display: flex;
     flex-direction: row;
@@ -150,6 +154,9 @@ margin: auto;
     background-repeat: no-repeat;
     z-index: -1;    
   }
+  .main__container {
+    width: 81.8%;    
+  }
   .mainSection::after {   
     top: -20%;
     left: 0 ;  
@@ -164,7 +171,7 @@ margin: auto;
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 86.4%;
+    width: 94.4%;
     gap: 24px;
   }
   .webdesign {
@@ -184,9 +191,17 @@ margin: auto;
   }
   .additionalInfo {
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 77.4%;
+    flex-wrap: wrap;
+    width: 100%;
   }
+  .additional__info__home {
+    flex-wrap: nowrap;
+    width: 80%;
+  }
+  .additionalInfo__web {
+    padding-bottom: 0;
+  }
+
   .additionalInfo figure {    
     flex-direction: column;
     /* justify-content: inherit; */

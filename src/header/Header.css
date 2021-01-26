@@ -102,7 +102,7 @@
 }
 .hero__btn {
   font-size: 0.9375rem;
-  padding: 16.5px 28.5px;
+  padding: 19px 28.5px;
   letter-spacing: 1px;
   font-weight: 600;
   background-color: var(--pri-color-white);
@@ -174,7 +174,8 @@
     width: 89.8%;
     margin: auto;
     border-radius: 15px;
-    background-position: 325% 49%;
+    background-position: 170% 45%;
+    background-size: 90%;
   }
   .hero {
     width: 83.2%;

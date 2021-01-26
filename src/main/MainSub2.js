@@ -5,7 +5,7 @@ import FigureCard from "./Figurecard"
 
 const MainSub2 = () => {
     return (
-        <div className="additionalInfo">
+        <div className="additionalInfo additional__info__home">
             <FigureCard src={Passionate} alt="passionate" title="Passionate"
                 summary="Each project starts with an in-depth brand research to ensure we
             only create products that serve a purpose. We merge
