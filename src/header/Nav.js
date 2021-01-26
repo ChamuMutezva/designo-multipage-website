@@ -46,9 +46,9 @@ const Navigation = () => {
 
                 <div className="modal">
                     <ul className={`modal__menuList ${ShowModal ? "modalHide" : "modalShow"}`}>
-                        <li tabIndex="0"><Link to="/about">OUR COMPANY</Link></li>
-                        <li tabIndex="0"><Link to="/locations">LOCATIONS</Link></li>
-                        <li tabIndex="0"><Link to="/contact">CONTACT</Link></li>
+                        <li tabIndex="0"><Link to="/about" onClick={displayModal}>OUR COMPANY</Link></li>
+                        <li tabIndex="0"><Link to="/locations" onClick={displayModal}>LOCATIONS</Link></li>
+                        <li tabIndex="0"><Link to="/contact" onClick={displayModal}>CONTACT</Link></li>
                     </ul>                   
 
                 </div>
