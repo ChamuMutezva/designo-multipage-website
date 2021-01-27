@@ -4,5 +4,10 @@
 .hero_image_about img {
   height: 320px;
   display: block;
-  width: 100vw;
+  width: 100%;
+}
+.hero__btn__about {	
+	background-color: var(--pri-color-peach);	
+	color: var(--pri-color-white);
+	margin-bottom: 29px;
 }
