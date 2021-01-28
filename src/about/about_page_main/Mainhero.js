@@ -6,7 +6,8 @@ import TalentDesktop from "../../assets/about/desktop/image-world-class-talent.j
 import "../about.css"
 const Mainhero = () => {
     return (
-        <div className="hero__container hero__container__about hero__about__spacer">
+        <div className="hero__container hero__container__about hero__about__spacer
+        hero__container__about__main">
             <div className="hero_image_about">
                 <img src={TalentMobile}
                     sizes="(min-width: 1090px) 476px, (min-width: 550px) 50vw,  100vw"

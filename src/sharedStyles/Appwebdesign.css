@@ -60,7 +60,7 @@
   padding-bottom: 300px;
 }
 .infoCard {
-  width: min(330px, 100%);
+  width: min(350px, 100%);
    margin: auto;
 }
 .projects__web {

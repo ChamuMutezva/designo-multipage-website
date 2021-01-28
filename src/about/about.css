@@ -33,7 +33,7 @@
     padding-top: 70px;
     padding-bottom: 44px;
   }
-  .hero__container__about p {
+  .hero__container__about .hero__summary {
     width: 100%;
   }
   .hero__about__spacer {
@@ -56,7 +56,42 @@
 }
 
 @media screen and (min-width: 1120px) {
+  
+  .hero__container__about__main .hero_image_about img {
+    height: auto;
+    border-radius: 15px 0px 0px 15px;
+  }
+  .hero__container__about {
+    padding-bottom: 0px;
+    flex-direction: row-reverse;
+  }
+  .hero__container__about__main {
+    flex-direction: row;
+  }
+  .hero__container__about .hero {
+    width: 60%;
+  }
+  .hero__container__about .hero__title {
+    padding-left: 96px;
+    padding-top: 65px;
+  }
+  .hero__container__about .hero__summary {
+    width: 72%;
+    margin-left: 96px;
+  }
   .hero_image_about {
     width: 45%;
   }
+  .hero_image_about img {
+    height: auto;
+    border-radius: 0 15px 15px 0;
+  }
+  .countryCard {
+    display: flex;
+    width: 77.4%;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  
 }
