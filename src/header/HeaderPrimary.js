@@ -2,8 +2,7 @@
 import Hero from './Hero'
 const HeaderPrimary = () => {
     return (
-        <div className="HeaderControl">
-           {/* <Navigation /> */}
+        <div className="HeaderControl">           
             <Hero />           
         </div>
     )

@@ -6,10 +6,21 @@
   display: block;
   width: 100%;
 }
+.hero__container__about {
+  background-position: 50% 40%;
+  background-size: 85%;
+}
+.hero__container__about .hero__web {
+  padding-bottom: 52px;
+  padding-top: 78px;
+  background-image: url("../assets/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat;
+  margin-bottom: 58px;
+}
 .hero__btn__about {
   background-color: var(--pri-color-peach);
   color: var(--pri-color-white);
-  margin-bottom: 29px;
+  margin: auto auto 29px;
 }
 .hero__about__spacer {
   background: #fdf3f0;
@@ -56,7 +67,6 @@
 }
 
 @media screen and (min-width: 1120px) {
-  
   .hero__container__about__main .hero_image_about img {
     height: auto;
     border-radius: 15px 0px 0px 15px;
@@ -70,6 +80,7 @@
   }
   .hero__container__about .hero {
     width: 60%;
+    padding-bottom: 0;
   }
   .hero__container__about .hero__title {
     padding-left: 96px;
@@ -90,8 +101,6 @@
     display: flex;
     width: 77.4%;
     justify-content: space-between;
-    margin: auto;
+    margin: 50px auto 0;
   }
-  
-  
 }

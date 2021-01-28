@@ -7,8 +7,9 @@
   margin-bottom: 30px;
 }
 .hero__containerWeb {
-  background-size: 80%;
-  background-position: 100% 10%;
+  background-size: 253%;
+  background-position: 45% 0%;
+  background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
 }
 
 /*main section webdesign*/
