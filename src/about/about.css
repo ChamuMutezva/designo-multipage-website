@@ -6,8 +6,57 @@
   display: block;
   width: 100%;
 }
-.hero__btn__about {	
-	background-color: var(--pri-color-peach);	
-	color: var(--pri-color-white);
-	margin-bottom: 29px;
+.hero__btn__about {
+  background-color: var(--pri-color-peach);
+  color: var(--pri-color-white);
+  margin-bottom: 29px;
+}
+.hero__about__spacer {
+  background: #fdf3f0;
+}
+.hero__about__spacer__bottom {
+  padding-bottom: 170px;
+}
+.hero__about__spacer p {
+  color: var(--pri-color-black);
+}
+.hero__about__spacer h2 {
+  color: var(--pri-color-peach);
+}
+.countryCard .additionalInfo__container {
+  background-color: var(--pri-color-white);
+}
+
+/*tablet*/
+@media screen and (min-width: 720px) {
+  .hero__container__about .hero {
+    padding-top: 70px;
+    padding-bottom: 44px;
+  }
+  .hero__container__about p {
+    width: 100%;
+  }
+  .hero__about__spacer {
+    background: #fdf3f0;
+    margin-top: 120px;
+  }
+  .hero_image_about img {
+    border-radius: 15px 15px 0 0;
+  }
+  .countryCard .infoCard {
+    flex-direction: column;
+  }
+  .countryCard .infoCard h2 {
+    margin-top: 0%;
+  }
+  .hero__about__spacer__bottom {
+    padding-bottom: 10px;
+    margin-bottom: 320px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .hero_image_about {
+    width: 45%;
+  }
 }

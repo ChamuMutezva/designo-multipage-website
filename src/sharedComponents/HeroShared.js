@@ -11,6 +11,9 @@ const HeroSharedComponent = (props) => {
                 <p className="hero__summary">
                     {props.summary}
                 </p>
+                <p className="hero__summary hero__summary2">
+                    {props.summary2}
+                </p>
             </div>
     )
 }
