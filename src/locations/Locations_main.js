@@ -7,10 +7,11 @@ import AustraliaMapDesktop from "../assets/locations/desktop/image-map-australia
 import UkMapDesktop from "../assets/locations/desktop/image-map-united-kingdom.png"
 
 import LocationComponent from "./LocationComponent"
+import "./locations.css"
 const LocationsMain = () => {
 
     return (
-        <div className="">
+        <div className="locations__map">
             <LocationComponent src={CanadaMapTablet}
                 sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                 srcSet={`${CanadaMapTablet} 689w, ${CanadaMapDesktop} 375w`} alt="canada map"
