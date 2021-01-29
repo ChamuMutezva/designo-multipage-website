@@ -3,7 +3,7 @@ const LocationComponent = (props) => {
         <div className="hero__container hero__container__about hero__about__spacer
         hero__container__about__main">
             <div className="country__img hero_image_about">
-                <img src={props.src} sizes={props.sizes} srcSet={props.srcSet} />
+                <img src={props.src} sizes={props.sizes} srcSet={props.srcSet} alt={props.alt}/>
             </div>
             <div className="hero hero__web">
                 <h3 className="title">{props.countryTitle}</h3>
