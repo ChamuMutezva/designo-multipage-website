@@ -6,7 +6,7 @@ const LocationComponent = (props) => {
                 <img src={props.src} sizes={props.sizes} srcSet={props.srcSet} />
             </div>
             <div className="hero hero__web">
-                <h3 className="title">{props.countryTitle}</h3>
+                <h3 className="title">{props.title}</h3>
                 <address className="address address1">
                     <span className="subtitle">{props.subtitle}</span> <br />
                     {props.line1}<br />

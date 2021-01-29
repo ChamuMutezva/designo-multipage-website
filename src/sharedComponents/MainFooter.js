@@ -23,15 +23,15 @@ const MainFooter = () => {
             </div>
 
             <address className="address1 address">
-                <p>Designo Central Office</p>
-                <p>3886 Wellington Street</p>
-                <p>Toronto, Ontario M9C 3J5</p>
+                <span className="office">Designo Central Office</span><br/>
+                <span>3886 Wellington Street</span><br/>
+                <span>Toronto, Ontario M9C 3J5</span><br/>
             </address>
 
             <address className="address2 address">
-                <p> Contact Us (Central Office)</p>
-                <p> P : +1 253-863-8967</p>
-                <p> M : contact@designo.co</p>
+                <span className="office"> Contact Us (Central Office)</span><br/>
+                <span> P : +1 253-863-8967</span><br/>
+                <span> M : contact@designo.co</span><br/>
             </address>
 
             <div className="socials">
