@@ -1,7 +1,9 @@
+import LocationsMain from "./Locations_main"
+import LocationMain from "./Locations_main"
 const Locations = () => {
     return (
         <>
-            <h1>Locations</h1>
+            <LocationsMain />
         </>
     )
 }
