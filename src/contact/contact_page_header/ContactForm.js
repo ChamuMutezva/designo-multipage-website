@@ -16,7 +16,7 @@ const ContactForm = () => {
                         <input type="phone" name="phone" id="phone" placeholder="0027832678210" />
                     </label>
                     <label class="contactDetails">
-                        <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                        <textarea name="message" id="" cols="30" rows="2" placeholder="Message"></textarea>
                     </label>
                 </div>
 

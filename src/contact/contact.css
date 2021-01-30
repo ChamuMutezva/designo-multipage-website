@@ -3,10 +3,10 @@
   margin-bottom: 98px;
 }*/
 .hero__contact {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 .countrycard__contact {
-	margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 form {
   width: 87.2%;
@@ -34,7 +34,7 @@ textarea {
   font-size: 0.94rem;
   line-height: 26px;
   font-weight: 500;
-  padding: 4px 12px;
+  padding: 10px 12px;
 }
 .hero__contact .hero__web {
   padding-bottom: 12px;
@@ -47,4 +47,22 @@ textarea {
   text-align: center;
   padding-bottom: 80px;
   padding-top: 40px;
+}
+@media screen and (min-width: 720px) {
+  .btn__ctrl {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .form__container {
+    width: 45%;
+    padding-top: 42px;
+  }
+  .hero__contact .hero__web {
+    width: 51%;
+  }
+  .btn__ctrl {
+    padding-bottom: 52px;
+  }
 }
