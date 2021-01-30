@@ -12,7 +12,7 @@ const LocationsMain = () => {
 
     return (
         <div className="locations__map">
-            <LocationComponent src={CanadaMapTablet}
+            <LocationComponent className="location__direction" src={CanadaMapTablet}               
                 sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                 srcSet={`${CanadaMapTablet} 689w, ${CanadaMapDesktop} 375w`} alt="canada map"
                 title="Canada" subtitle="Designo Central Office" line1="3886 Wellington Street"
@@ -26,7 +26,7 @@ const LocationsMain = () => {
                 line2="New South Wales 2443" phone=" P : (02) 6720 9092" email="M : contact@designo.au"
             />
 
-            <LocationComponent src={UkMapTablet}
+            <LocationComponent src={UkMapTablet}               
                 sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                 srcSet={`${UkMapTablet} 689w, ${UkMapDesktop} 375w`} alt="United Kingdom map"
                 title="United Kingdom" subtitle="Designo UK Office" line1="13 Colorado Way"

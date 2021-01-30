@@ -72,6 +72,13 @@
 }
 
 @media screen and (min-width: 1120px) {
+  .hero__location__spacer {
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+  }
+  .locations__map .hero__container:nth-child(2) {
+    flex-direction: row;
+  }
   .hero_image_location {
     width: 48%;
     margin-bottom: 0;
@@ -79,5 +86,14 @@
   .hero__container .hero__location {
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 58px;
+  }
+  .hero__location .title {
+    margin-top: 28px;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  .hero__location__spacer .hero_image_about img {   
+    height: 100%;
   }
 }
