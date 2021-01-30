@@ -1,12 +1,21 @@
-.form__container {
+/*.form__container {
   background-color: var(--pri-color-peach);
+  margin-bottom: 98px;
+}*/
+.hero__contact {
+	margin-bottom: 100px;
+}
+.countrycard__contact {
+	margin-bottom: 200px;
 }
 form {
+  width: 87.2%;
+  margin: auto;
+}
+.form__inputs {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 87.2%;
-  margin: auto;
   row-gap: 25px;
 }
 .contactDetails {
@@ -22,10 +31,20 @@ textarea {
   outline: none;
   background-color: inherit;
   color: white;
+  font-size: 0.94rem;
+  line-height: 26px;
+  font-weight: 500;
+  padding: 4px 12px;
 }
-.hero__container .hero__web {
+.hero__contact .hero__web {
   padding-bottom: 12px;
+  padding-top: 65px;
 }
 .hero__container .hero__summary {
   margin-bottom: 0px;
+}
+.btn__ctrl {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }

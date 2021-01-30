@@ -1,3 +1,14 @@
+/* Button component */
+.btn__component {
+  font-size: 0.9375rem;
+  padding: 19px 28.5px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: var(--pri-color-white);
+  border: none;
+  border-radius: 8px;
+  width: 152px;
+}
 /*heading section, webdesign*/
 .hero__web {
   padding-bottom: 80px;
@@ -11,6 +22,7 @@
   background-position: 45% 0%;
   background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
 }
+
 
 /*main section webdesign*/
 .main__container {

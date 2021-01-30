@@ -1,12 +1,17 @@
 import ContactHeader from "../contact/contact_page_header/ContactPageHeader"
 import Mainsubabout from "../about/about_page_main/MainSubAbout"
-import MainFooter from '../webdesign/web_design_footer/WebDesignFooter'
+import MainFooter from '../sharedComponents/MainFooter'
 const Contact = () => {
-    return(
+    return (
         <div className="contactHeader">
-            <ContactHeader/>
-            <Mainsubabout/>
-            <MainFooter/>
+            <ContactHeader />
+            <div className="countrycard__contact">
+                <Mainsubabout />
+            </div>
+            <div className="footer">
+                <MainFooter />
+            </div>
+
         </div>
     )
 }
