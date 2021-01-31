@@ -59,7 +59,9 @@
   margin: auto;
   padding-bottom: 32px;
 }
-
+.countryCard .additionalInfo__title {  
+  margin-bottom: 50px;  
+}
 .additionalInfo__web {
   width: 100%;
   padding-top: 94px;

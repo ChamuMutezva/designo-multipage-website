@@ -219,7 +219,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-  }
+    background-position: 100% 17%;
+    background-size: 60%;
+  } 
   .hero {
     width: 50%;
     text-align: left;

@@ -74,13 +74,13 @@
   padding-bottom: 300.5px;
 }
 .additionalInfo h3 {
-	font-size: 1.25rem;
-	font-family: "Jost", sans-serif;
-	line-height: 26px;
-	letter-spacing: 5px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	text-align: center;
+  font-size: 1.25rem;
+  font-family: "Jost", sans-serif;
+  line-height: 26px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .additionalInfo p {
   font-family: inherit;
@@ -98,7 +98,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-margin: auto;
+  margin: auto;
 }
 
 @media screen and (min-width: 720px) {
@@ -130,7 +130,7 @@ margin: auto;
     row-gap: 32px;
     padding-bottom: 328.5px;
   }
- 
+
   .additionalInfo figure {
     display: flex;
     flex-direction: row;
@@ -155,27 +155,28 @@ margin: auto;
     position: relative;
     margin-top: 40px;
   }
-  .mainSection::after,  .mainSection::before{   ;
+  .mainSection::after,
+  .mainSection::before {
     position: absolute;
     content: "";
-    width: 50%;
+    width: 75%;
     height: 500px;
     background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
     background-repeat: no-repeat;
-    z-index: -1;    
+    z-index: -1;
   }
   .main__container {
-    width: 81.8%;    
+    width: 81.8%;
   }
-  .mainSection::after {   
+  .mainSection::after {
     top: -20%;
-    left: 0 ;  
-    background-size: 100% 110%;   
+    left: 0;
+    background-size: 100% 110%;
   }
   .mainSection::before {
     bottom: 8%;
-    right: 0px;      
-    background-size: 100% 100%;    
+    right: 0px;
+    background-size: 100% 100%;
     transform: rotate(180deg);
   }
   .projects {
@@ -214,13 +215,18 @@ margin: auto;
     padding-bottom: 0;
   }
 
-  .additionalInfo figure {    
+  .additionalInfo figure {
     flex-direction: column;
     /* justify-content: inherit; */
     align-items: center;
     gap: 15px;
   }
-  .additionalInfo p, .additionalInfo h3 {    
+  .additionalInfo p,
+  .additionalInfo h3 {
     text-align: center;
+  }
+
+  .additionalInfo figcaption {
+    width: 81%;
   }
 }
