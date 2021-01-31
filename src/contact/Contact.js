@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="countrycard__contact">
                 <Mainsubabout />
             </div>
-            <div className="footer">
+            <div className="footer footer__contact">                
                 <MainFooter />
             </div>
 

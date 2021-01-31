@@ -108,6 +108,7 @@
   background-color: var(--pri-color-white);
   border: none;
   border-radius: 8px;
+  margin-top: 24px;
 }
 .hero__imageDisplay {
   width: 100%;

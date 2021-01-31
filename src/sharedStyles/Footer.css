@@ -54,6 +54,10 @@ aside {
   margin: -114px auto auto;
   padding-bottom: 60px;
 }
+.footer__contact {
+  padding-top: 190px;
+}
+/*
 .mainFooter::before {
   position: absolute;
   content: "";
@@ -62,6 +66,18 @@ aside {
   background-color: #979797;
   top: 320px;
   left: 21px;
+}
+*/
+.footerLogo__container {
+  position: relative;
+}
+.footerLogo__container::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #979797;
+  top: 50px;
 }
 .footerLogo {
   filter: invert(100%) hue-rotate(171deg) brightness(100%);
@@ -144,6 +160,9 @@ aside {
     width: 100%;
     top: 38px;
     left: 21px;
+  }
+  .footerLogo__container::before {
+    width: 300%;
   }
   .footer__menu {
     grid-area: 1/2/1/4;

@@ -1,6 +1,6 @@
 /*
 HOME FOOTER section 
-*/
+
 .footer {
   background-color: var(--pri-color-black);
   color: var(--pri-color-white);
@@ -54,6 +54,7 @@ aside {
   margin: -114px auto auto;
   padding-bottom: 60px;
 }
+
 .mainFooter::before {
   position: absolute;
   content: "";
@@ -62,6 +63,18 @@ aside {
   background-color: #979797;
   top: 320px;
   left: 21px;
+}
+
+.footerLogo__container {
+  position: relative;
+}
+.footerLogo__container::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: #979797;
+	top: 50px;
 }
 .footerLogo {
   filter: invert(100%) hue-rotate(171deg) brightness(100%);
@@ -128,7 +141,7 @@ aside {
   }
   .aside__btn {
     padding: 19.5px 32.5px;
-    margin-bottom: 0 /*60px*/;
+    margin-bottom: 0 ;
   }
   .aside__container {
     width: 85.7%;
@@ -211,4 +224,4 @@ aside {
   .address {
     text-align: left;
   }
-}
+}*/

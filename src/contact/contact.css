@@ -51,6 +51,26 @@ textarea {
 @media screen and (min-width: 720px) {
   .btn__ctrl {
     text-align: right;
+    padding-top: 0;
+  }
+  .hero__contact .hero__title,
+  .hero__contact .hero__summary {
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  .hero__contact .hero__web {
+    padding-bottom: 0px;    
+  }
+  .hero__contact {
+    margin-bottom: 112px;
+  }
+  .form__container {
+    margin-top: 35px;
+  }
+  input,
+  textarea {    
+    padding: 12px 12px;
   }
 }
 
@@ -62,7 +82,13 @@ textarea {
   .hero__contact .hero__web {
     width: 51%;
   }
+
   .btn__ctrl {
     padding-bottom: 52px;
+  }
+  
+  .hero__contact .hero__summary {    
+    margin-left: 60px;   
+    width: 80%;
   }
 }

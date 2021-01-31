@@ -8,6 +8,7 @@
   border: none;
   border-radius: 8px;
   width: 152px;
+  margin-top: 24px;
 }
 /*heading section, webdesign*/
 .hero__web {
@@ -22,7 +23,6 @@
   background-position: 45% 0%;
   background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
 }
-
 
 /*main section webdesign*/
 .main__container {
@@ -74,7 +74,7 @@
 }
 .infoCard {
   width: min(350px, 100%);
-   margin: auto;
+  margin: auto;
 }
 .projects__web {
   padding-top: 100px;
@@ -113,5 +113,10 @@
   .main__container {
     /*width: 80%;
     margin: auto;*/
+  }
+}
+@media screen and (min-width: 1120px) {
+  .btn__component {
+    margin-left: 60px;
   }
 }

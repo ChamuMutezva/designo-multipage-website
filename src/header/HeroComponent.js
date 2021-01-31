@@ -1,17 +1,19 @@
+import Button from "../sharedComponents/ButtonComponent"
 const HeroComponent = (props) => {
     return (
         <>
-             <div className="hero">
+            <div className="hero">
                 <h2 className="hero__title">{props.title}</h2>
                 <p className="hero__summary">
-                   {props.summary}
+                    {props.summary}
                 </p>
-                <button className="hero__btn">
+                {/* <button className="hero__btn">
                     Learn more
-                </button>
-             </div>
+    </button> */}
+                <Button title="Learn more" />
+            </div>
             <div className="hero__imageDisplay"></div>
-         </>
+        </>
     )
 }
 export default HeroComponent

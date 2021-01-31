@@ -54,11 +54,16 @@
   .hero_image_about img {
     border-radius: 15px 15px 0 0;
   }
+  .countryCard {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  }
   .countryCard .infoCard {
     flex-direction: column;
   }
   .countryCard .infoCard h2 {
-    margin-top: 0%;
+    margin-top: 15px;
   }
   .hero__about__spacer__bottom {
     padding-bottom: 10px;
@@ -98,7 +103,7 @@
     border-radius: 0 15px 15px 0;
   }
   .countryCard {
-    display: flex;
+    flex-direction: row;
     width: 77.4%;
     justify-content: space-between;
     margin: 50px auto 0;

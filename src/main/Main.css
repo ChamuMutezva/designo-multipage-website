@@ -1,3 +1,10 @@
+/********************************************************
+                 PROJECTS PAGE 
+  - used in the following pages
+  graphicdesign , appdesign, graphicdesign and homepage
+  - mainly used in the image containers with the links to
+  the 3 pages
+  ******************************************************/
 .projects {
   width: 100%;
   margin: auto;
@@ -49,9 +56,12 @@
   margin-left: 16px;
 }
 
-/* ------------------------------
+/* ----------------------------------------------------------------------
       ADDITIONALINFO COMPONENT
-      ------------------------------- */
+      contains information generally short descriptions of
+      purpose of the work that we do (app, web and graphic designs
+
+      ------------------------------------------------------------------- */
 
 .additionalInfo {
   padding-top: 120px;
@@ -180,7 +190,9 @@ margin: auto;
   .project_img {
     width: 100%;
   }
-  
+  .project__summary {
+    left: 30%;
+  }
   .appdesign .project_img,
   .graphicdesign .project_img {
     max-height: 308px;
