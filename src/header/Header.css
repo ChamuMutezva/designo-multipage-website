@@ -247,3 +247,10 @@
     height: 490px;
   }
 }
+@media screen and (min-width: 1650px) {  
+  .modal {        
+      right: -60%;
+      position: relative;
+      top: -123px;
+  }
+}
