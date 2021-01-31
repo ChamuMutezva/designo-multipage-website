@@ -5,13 +5,15 @@ import instagram from '../assets/shared/desktop/icon-instagram.svg'
 import twitter from '../assets/shared/desktop/icon-twitter.svg'
 import pinterest from '../assets/shared/desktop/icon-pinterest.svg'
 import youtube from '../assets/shared/desktop/icon-youtube.svg'
-import  '../sharedStyles/Footer.css'
+import '../sharedStyles/Footer.css'
 //import './Footer.css'
 const MainFooter = () => {
     return (
         <div className="mainFooter">
             <div className="footerLogo__container">
-                <img src={Logo} alt="designo landing page" className="footerLogo" />
+                <Link to="/">
+                    <img src={Logo} alt="designo landing page" className="footerLogo" />
+                </Link>
             </div>
 
             <div className="footer__menu">
@@ -23,15 +25,15 @@ const MainFooter = () => {
             </div>
 
             <address className="address1 address">
-                <span className="office">Designo Central Office</span><br/>
-                <span>3886 Wellington Street</span><br/>
-                <span>Toronto, Ontario M9C 3J5</span><br/>
+                <span className="office">Designo Central Office</span><br />
+                <span>3886 Wellington Street</span><br />
+                <span>Toronto, Ontario M9C 3J5</span><br />
             </address>
 
             <address className="address2 address">
-                <span className="office"> Contact Us (Central Office)</span><br/>
-                <span> P : +1 253-863-8967</span><br/>
-                <span> M : contact@designo.co</span><br/>
+                <span className="office"> Contact Us (Central Office)</span><br />
+                <span> P : +1 253-863-8967</span><br />
+                <span> M : contact@designo.co</span><br />
             </address>
 
             <div className="socials">

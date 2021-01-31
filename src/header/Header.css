@@ -51,6 +51,7 @@
   display: block;
   margin: auto;
   width: 202px;
+  outline: none;
 }
 .menu__ctrls {
   position: relative;

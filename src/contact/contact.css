@@ -1,7 +1,3 @@
-/*.form__container {
-  background-color: var(--pri-color-peach);
-  margin-bottom: 98px;
-}*/
 .hero__contact {
   margin-bottom: 100px;
 }
@@ -30,11 +26,14 @@ textarea {
   border-bottom: 1px solid white;
   outline: none;
   background-color: inherit;
-  color: white;
+  color: black;
   font-size: 0.94rem;
   line-height: 26px;
   font-weight: 500;
   padding: 10px 12px;
+}
+input::placeholder, textarea::placeholder {
+    color: white;
 }
 .hero__contact .hero__web {
   padding-bottom: 12px;
