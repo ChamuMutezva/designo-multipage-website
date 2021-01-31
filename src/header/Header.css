@@ -143,11 +143,11 @@
   .modal {
     position: absolute;
     top: 36px;
-    right: 0;
+    right: 4%;
     left: auto;
     width: 51.5%;
     background-color: var(--pri-color-white);
-    margin-right: 18px;
+    /*margin-right: 18px;*/
   }
 
   .modal__menuList {
@@ -207,7 +207,7 @@
   }
   .modal {
     width: 29.5%;
-    margin-right: 130px;
+    right: 10%;
   }
 
   .nav {
