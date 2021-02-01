@@ -3,7 +3,7 @@ const HeroComponent = (props) => {
     return (
         <>
             <div className="hero">
-                <h2 className="hero__title">{props.title}</h2>
+                <h1 className="hero__title">{props.title}</h1>
                 <p className="hero__summary">
                     {props.summary}
                 </p>
