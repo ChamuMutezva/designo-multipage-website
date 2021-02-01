@@ -31,7 +31,7 @@ const Navigation = () => {
                 <div className="nav">
                     <div className="nav__controls">
                         <div className="logoContainer" aria-label="designo design">
-                            <Link to="/">
+                            <Link  tabIndex="0" to="/">
                                 <img src={Logo} alt="designo landing page" className="logo" tabIndex="0" />
                             </Link>
                         </div>
@@ -46,9 +46,9 @@ const Navigation = () => {
 
                 <div className="modal">
                     <ul className={`modal__menuList ${ShowModal ? "modalHide" : "modalShow"}`}>
-                        <li tabIndex="0"><Link to="/about" onClick={displayModal}>OUR COMPANY</Link></li>
-                        <li tabIndex="0"><Link to="/locations" onClick={displayModal}>LOCATIONS</Link></li>
-                        <li tabIndex="0"><Link to="/contact" onClick={displayModal}>CONTACT</Link></li>
+                        <li><Link  tabIndex="0" to="/about" onClick={displayModal}>OUR COMPANY</Link></li>
+                        <li><Link  tabIndex="0" to="/locations" onClick={displayModal}>LOCATIONS</Link></li>
+                        <li><Link  tabIndex="0" to="/contact" onClick={displayModal}>CONTACT</Link></li>
                     </ul>                   
 
                 </div>

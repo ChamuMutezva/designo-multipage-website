@@ -29,7 +29,7 @@ const MainSubDesign = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
                            ${AppDesktop} 541w`} name="APP DESIGN"
-                    Link="/graphicdesign"
+                    Link="/appdesign" label="app design page"
                     src2={IconRightArrow} alt2="proceed to view app designs"
                 />
 
@@ -38,7 +38,7 @@ const MainSubDesign = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${WebMobile} 327w, ${WebTablet} 689w,
                            ${WebDesktopSmall} 541w`} name="WEB DESIGN"
-                    Link="/appdesign"
+                    Link="/webdesign" label="web design page"
                     src2={IconRightArrow} alt2="proceed to view web designs"
                 />
 

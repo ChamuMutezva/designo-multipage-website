@@ -12,7 +12,7 @@ const MainProjectCards = (props) => {
            
            <div className="project__summary">
                 <h2 className="project__summary__title">{props.name}</h2>
-                <Link to={props.Link} className="project__btn" >View projects
+                <Link to={props.Link} className="project__btn" aria-label={props.label}>View projects
                  <img src={props.src2} className="project__btn__img" alt={props.src2} />
                 </Link>
             </div>

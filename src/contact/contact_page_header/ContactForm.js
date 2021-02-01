@@ -17,7 +17,7 @@ const ContactForm = () => {
                         <input type="email" name="email" id="email" placeholder="Email" required />
                     </label>
                     <label className="contactDetails">
-                        <input type="phone" name="phone" id="phone" placeholder="0027832678210" required />
+                        <input type="tel" name="phone" id="phone" placeholder="0027832678210" required />
                     </label>
                     <label className="contactDetails">
                         <textarea name="message" id="" cols="30" rows="2" placeholder="Message"></textarea>
@@ -25,7 +25,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="btn__ctrl">
-                    <Button title="Submit" />
+                    <Button title="Submit"/>
                 </div>
 
             </form>

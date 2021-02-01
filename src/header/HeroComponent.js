@@ -10,7 +10,7 @@ const HeroComponent = (props) => {
                 {/* <button className="hero__btn">
                     Learn more
     </button> */}
-                <Button title="Learn more" />
+                <Button title="Learn more" label="Find out more about our services." />
             </div>
             <div className="hero__imageDisplay"></div>
         </>

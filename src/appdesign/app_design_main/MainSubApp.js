@@ -24,12 +24,12 @@ const MainSubApp = () => {
 
             <div className="projects projects__web">
 
-                <MainProjectCard src={WebMobile} alt="app design"
+                <MainProjectCard src={WebMobile} alt="web design"
                     className="appdesign projects__web__design"
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${WebMobile} 327w, ${WebTablet} 689w,
                            ${WebDesktopSmall} 541w`} name="WEB DESIGN"
-                    Link="/appdesign"
+                    Link="/webdesign" label="web design page"
                     src2={IconRightArrow} alt2="proceed to view web designs"
                 />
 
@@ -38,7 +38,7 @@ const MainSubApp = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} name="GRAPHIC DESIGN"
-                    Link="/graphicdesign"
+                    Link="/graphicdesign" label="graphic design page"
                     src2={IconRightArrow} alt2="proceed to view graphic designs"
                 />
 

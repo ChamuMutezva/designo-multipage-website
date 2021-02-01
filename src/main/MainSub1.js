@@ -30,7 +30,7 @@ const MainSub1 = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${WebMobile} 327w, ${WebTablet} 689w, ${WebDesktopSmall} 541w,
                  ${WebDesktopLarge} 541w`} name="WEB DESIGN"
-                    Link ="/webdesign"
+                    Link ="/webdesign" label="web design page"
                     src2={IconRightArrow} alt2="proceed to view web design"
                 />
 
@@ -38,7 +38,7 @@ const MainSub1 = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${AppMobile} 327w, ${AppTablet} 689w,
                            ${AppDesktop} 541w`} name="APP DESIGN"
-                           Link ="/appdesign"
+                           Link ="/appdesign" label="app design page"
                     src2={IconRightArrow} alt2="proceed to view app designs"
                 />
 
@@ -46,7 +46,7 @@ const MainSub1 = () => {
                     sizes="(min-width: 1090px) 341px, (min-width: 650px) 40vw,  50vw"
                     srcSet={`${DesignMobile} 327w, ${DesignTablet} 689w,
                            ${DesignDesktop} 541w`} name="GRAPHIC DESIGN"
-                           Link ="/graphicdesign"
+                           Link ="/graphicdesign" label="graphic design page"
                     src2={IconRightArrow} alt2="proceed to view graphic designs"
                 />
 

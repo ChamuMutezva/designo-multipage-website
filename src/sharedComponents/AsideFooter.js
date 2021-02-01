@@ -6,7 +6,7 @@ const Aside = (props) => {
                 <h4 className="aside__title">{props.title}</h4>
                 <p className="aside__summary">{props.summary}
                 </p>
-                <button className="aside__btn">Get in touch</button>
+                <button className="aside__btn" aria-label="Contact us and find out how our expertise can help your business grow">Get in touch</button>
             </div>
         
     )

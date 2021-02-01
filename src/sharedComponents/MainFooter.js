@@ -11,16 +11,16 @@ const MainFooter = () => {
     return (
         <div className="mainFooter">
             <div className="footerLogo__container">
-                <Link to="/">
+                <Link to="/" tabIndex="0">
                     <img src={Logo} alt="designo landing page" className="footerLogo" />
                 </Link>
             </div>
 
             <div className="footer__menu">
                 <ul className="footer__menuList">
-                    <li tabIndex="0"><Link to="/about">OUR COMPANY</Link></li>
-                    <li tabIndex="0"><Link to="/locations">LOCATIONS</Link></li>
-                    <li tabIndex="0"><Link to="/contact">CONTACT</Link></li>
+                    <li><Link tabIndex="0" to="/about">OUR COMPANY</Link></li>
+                    <li><Link tabIndex="0" to="/locations">LOCATIONS</Link></li>
+                    <li><Link tabIndex="0" to="/contact">CONTACT</Link></li>
                 </ul>
             </div>
 
@@ -38,23 +38,23 @@ const MainFooter = () => {
 
             <div className="socials">
                 <div>
-                    <a href="/"> <img src={facebook} alt="facebook page" />  </a>
+                    <a href="/" tabIndex="0"> <img src={facebook} alt="facebook page" />  </a>
                 </div>
 
                 <div>
-                    <a href="/"> <img src={instagram} alt="instagram page" />  </a>
+                    <a href="/" tabIndex="0"> <img src={instagram} alt="instagram page" />  </a>
                 </div>
 
                 <div>
-                    <a href="/"> <img src={twitter} alt="twitter page" />  </a>
+                    <a href="/" tabIndex="0"> <img src={twitter} alt="twitter page" />  </a>
                 </div>
 
                 <div>
-                    <a href="/"> <img src={pinterest} alt="pinterest page" />  </a>
+                    <a href="/" tabIndex="0"> <img src={pinterest} alt="pinterest page" />  </a>
                 </div>
 
                 <div>
-                    <a href="/"> <img src={youtube} alt="youtube page" />  </a>
+                    <a href="/" tabIndex="0"> <img src={youtube} alt="youtube page" />  </a>
                 </div>
             </div>
 
