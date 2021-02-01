@@ -127,6 +127,14 @@
   transform: scale(1.7);
   padding-top: 60px;
 }
+ /* active states */
+ .btn__component:hover {
+  background-color: var(--sec-color-ltpeach);
+  color: var(--pri-color-white);
+}
+.modal__menuList a:hover{
+  border-bottom: 1px solid var(--pri-color-black);
+}
 /* ----------------------------
         END OF MOBILE VERSION
         -----------------------------------*/
@@ -164,9 +172,8 @@
     color: var(--pri-color-white);
     line-height: 14px;
     color: var(--pri-color-black);
-    letter-spacing: 2px;
-    /* background-color: inherit; */
-  }
+    letter-spacing: 2px;    
+  } 
   .menu__ctrls--btn {
     display: none;
   }
@@ -199,6 +206,7 @@
     background-size: 90%;
     height: 460px;
   }
+ 
 }
 
 @media screen and (min-width: 1120px) {

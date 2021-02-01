@@ -100,6 +100,12 @@
   display: block;
   margin: auto;
 }
+/*active states */
+.project_img:hover {
+	background-color: var(--sec-color-ltpeach);
+	cursor: pointer;
+	opacity: 0.5;
+}
 
 @media screen and (min-width: 720px) {
   .main__container {

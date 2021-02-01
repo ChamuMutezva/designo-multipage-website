@@ -57,17 +57,7 @@ aside {
 .footer__contact {
   padding-top: 190px;
 }
-/*
-.mainFooter::before {
-  position: absolute;
-  content: "";
-  width: 88%;
-  height: 1px;
-  background-color: #979797;
-  top: 320px;
-  left: 21px;
-}
-*/
+
 .footerLogo__container {
   position: relative;
 }
@@ -124,6 +114,16 @@ aside {
   display: block;
   margin: auto;
 }
+ /* active states */
+ .aside__btn:hover {
+  background-color: var(--sec-color-ltpeach);
+  color: var(--pri-color-white);
+  cursor: pointer;
+}
+.socials img:hover {	
+	filter: brightness(30%) contrast(40%);
+}
+
 
 @media screen and (min-width: 720px) {
   aside {
