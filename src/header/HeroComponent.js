@@ -6,10 +6,7 @@ const HeroComponent = (props) => {
                 <h1 className="hero__title">{props.title}</h1>
                 <p className="hero__summary">
                     {props.summary}
-                </p>
-                {/* <button className="hero__btn">
-                    Learn more
-    </button> */}
+                </p>               
                 <Button title="Learn more" label="Find out more about our services." />
             </div>
             <div className="hero__imageDisplay"></div>
