@@ -23,6 +23,10 @@
   margin: auto auto 29px;
   text-decoration: none;
 }
+.hero__btn__about:hover {
+	background-color: var(--sec-color-ltpeach);
+	color: var(--pri-color-white);
+}
 .hero__about__spacer {
   background: #fdf3f0;
 }
