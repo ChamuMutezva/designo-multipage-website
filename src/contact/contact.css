@@ -21,19 +21,18 @@ form {
   display: flex;
   flex-direction: column;
 }
-input,
-textarea {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid white;
-  outline: none;
-  background-color: inherit;
-  color: black;
-  font-size: 0.94rem;
-  line-height: 26px;
-  font-weight: 500;
-  padding: 10px 12px;
+input, textarea {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background-color: inherit;
+	color: var(--pri-color-white);
+	font-size: 0.94rem;
+	line-height: 26px;
+	font-weight: 500;
+	padding: 10px 12px;
 }
 input::placeholder, textarea::placeholder {
     color: white;
