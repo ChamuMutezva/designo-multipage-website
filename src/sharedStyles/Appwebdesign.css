@@ -74,6 +74,7 @@
 .mainSectionWeb {
   padding-bottom: 300px;
 }
+
 .infoCard {
   width: min(350px, 100%);
   margin: auto;
@@ -123,9 +124,15 @@
   .mainSectionWeb .additionalInfo__web {
     padding-bottom: 0px;
   }
+
 }
 @media screen and (min-width: 1120px) {
   .btn__component {
     margin-left: 60px;
   }
+  .hero__containerWeb .mainSection::before {
+    height: 0;
+    
+  }
+  
 }

@@ -15,7 +15,10 @@
   padding-top: 78px;
   background-image: url("../assets/shared/desktop/bg-pattern-three-circles.svg");
   background-repeat: no-repeat;
-  margin-bottom: 58px;
+ /* margin-bottom: 58px;*/
+}
+.additionalInfo__img__about:nth-child(1) {
+  margin-top: 58px;
 }
 .hero__btn__about {
   background-color: var(--pri-color-peach);
