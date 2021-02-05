@@ -20,6 +20,18 @@ form {
 .contactDetails {
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+.errorMsg {
+	position: absolute;
+	right: 0;
+	line-height: 26px;
+	top: 10px;
+	color: var(--pri-color-white);
+	display: flex;
+	align-items: center;
+  gap: 10px;
+  visibility: hidden;
 }
 input, textarea {
 	border-top: none;
@@ -48,6 +60,13 @@ input::placeholder, textarea::placeholder {
   text-align: center;
   padding-bottom: 80px;
   padding-top: 40px;
+}
+/*active and error states */
+.errorMsgShow {
+  visibility: visible;
+}
+.filledInput {
+  border-bottom: 3px solid white;
 }
 @media screen and (min-width: 720px) {
   .btn__ctrl {

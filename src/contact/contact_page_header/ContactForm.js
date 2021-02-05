@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "../contact.css"
 import Button from "../../sharedComponents/ButtonComponent"
+import error from "../../assets/contact/desktop/icon-error.svg"
 const ContactForm = () => {
     /*  const intitialState = {
           fullname: "",
@@ -61,26 +62,46 @@ const ContactForm = () => {
         console.log(newData)
 
     }
+    const inputs = Array.from(document.querySelectorAll(".inputField"))
+
+    inputs.forEach(input => {       
+        input.addEventListener("invalid", function () {
+            input.previousSibling.classList.add("errorMsgShow")
+            input.classList.remove("filledInput")
+        })
+
+        input.addEventListener("input", function () {
+            if (input.validity.valid) {
+                input.previousSibling.classList.remove("errorMsgShow")
+                input.classList.add("filledInput")
+            }
+        })
+
+    })
+
     return (
         <div className="form__container">
             <form onSubmit={submitForm}>
                 <div className="form__inputs">
                     <label className="contactDetails">
-                        {/*<span class="contactMe">Name</span> */}
-                        <input type="text" name="name" id="name" value={newName}
+                        <span className="errorMsg" aria-hidden="true">Can't be empty <img src={error} alt="error message" /></span>
+                        <input type="text" name="name" id="name" value={newName} className="inputField"
                             placeholder="Name" required onChange={onChangeName} />
                     </label>
                     <label className="contactDetails">
-                        <input type="email" name="email" id="emailaddress" value={newEmail}
-                            placeholder="xyz@gmail.com" required onChange={onChangeEmail} />
+                        <span className="errorMsg" aria-hidden="true">Can't be empty <img src={error} alt="error message" /></span>
+                        <input type="email" name="email" id="emailaddress" value={newEmail} className="inputField"
+                            placeholder="Email address" required onChange={onChangeEmail} />
                     </label>
                     <label className="contactDetails">
-                        <input type="tel" name="phone" id="phone" value={newPhone}
-                            placeholder="0027832678210" required onChange={onChangePhone} />
+                        <span className="errorMsg" aria-hidden="true">Can't be empty <img src={error} alt="error message" /></span>
+                        <input type="tel" name="phone" id="phone" value={newPhone} className="inputField"
+                            placeholder="Phone" required onChange={onChangePhone} />
                     </label>
                     <label className="contactDetails">
-                        <textarea name="message" id="msg" cols="30" rows="2" value={newMsg}
-                            placeholder="Message" onChange={onChangeMsg}></textarea>
+                        <span className="errorMsg" aria-hidden="true">Can't be empty <img src={error} alt="error message" /></span>
+                        <textarea name="message" id="msg" cols="30" rows="2" value={newMsg} className="inputField"
+                            placeholder="Your Message" onChange={onChangeMsg}></textarea>
                     </label>
                 </div>
 
