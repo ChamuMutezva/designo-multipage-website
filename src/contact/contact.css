@@ -61,13 +61,21 @@ input::placeholder, textarea::placeholder {
   padding-bottom: 80px;
   padding-top: 40px;
 }
-/*active and error states */
+/***********************************
+active and error states 
+***********************************/
 .errorMsgShow {
   visibility: visible;
+}
+input:hover {
+	cursor: pointer;
 }
 .filledInput {
   border-bottom: 3px solid white;
 }
+/***********************************
+ END - active and error states 
+***********************************/
 @media screen and (min-width: 720px) {
   .btn__ctrl {
     text-align: right;

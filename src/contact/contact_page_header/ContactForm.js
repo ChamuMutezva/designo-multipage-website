@@ -3,6 +3,8 @@ import "../contact.css"
 import Button from "../../sharedComponents/ButtonComponent"
 import error from "../../assets/contact/desktop/icon-error.svg"
 const ContactForm = () => {
+    const inputs = Array.from(document.querySelectorAll(".inputField"))
+
     /*  const intitialState = {
           fullname: "",
           emailAddress: "",
@@ -22,7 +24,23 @@ const ContactForm = () => {
       }
       const { fullname, emailAddress, phone, message } = formData
   console.log(fullname)
+
   */
+    inputs.forEach(input => {
+       
+        input.addEventListener("invalid", function () {
+            input.previousSibling.classList.add("errorMsgShow")
+            input.classList.remove("filledInput")
+        })
+
+        input.addEventListener("input", function () {
+            if (input.validity.valid) {
+                input.previousSibling.classList.remove("errorMsgShow")
+                input.classList.add("filledInput")
+            }
+        })
+
+    })
     const [newName, setNewName] = useState("")
     const [newEmail, setNewEmail] = useState("")
     const [newPhone, setNewPhone] = useState("")
@@ -46,7 +64,16 @@ const ContactForm = () => {
         setNewMsg(evt.target.value)
     }
     const submitForm = (evt) => {
+       
+        inputs.forEach(input => {
+            console.log(input)
+            if(input.value.length <= 0) {
+                input.previousSibling.classList.add("errorMsgShow")
+            }
+        })
+
         evt.preventDefault()
+       
         const dataObj = {
             name: newName,
             email: newEmail,
@@ -60,24 +87,13 @@ const ContactForm = () => {
         setNewPhone('')
         setNewMsg('')
         console.log(newData)
-
-    }
-    const inputs = Array.from(document.querySelectorAll(".inputField"))
-
-    inputs.forEach(input => {       
-        input.addEventListener("invalid", function () {
-            input.previousSibling.classList.add("errorMsgShow")
+        alert("Thank you, form has been submitted successfully!")
+        inputs.forEach(input => {
             input.classList.remove("filledInput")
         })
+    }
 
-        input.addEventListener("input", function () {
-            if (input.validity.valid) {
-                input.previousSibling.classList.remove("errorMsgShow")
-                input.classList.add("filledInput")
-            }
-        })
 
-    })
 
     return (
         <div className="form__container">

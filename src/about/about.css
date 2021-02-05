@@ -30,6 +30,9 @@
 .hero__about__spacer {
   background: #fdf3f0;
 }
+.hero__about__spacer .hero__title {
+	color: var(--pri-color-peach);
+}
 .hero__about__spacer__bottom {
   padding-bottom: 170px;
 }
