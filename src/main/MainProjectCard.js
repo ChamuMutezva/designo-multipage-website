@@ -5,9 +5,9 @@ const MainProjectCards = (props) => {
 
         <div className={`${props.className} project`}>
             <img className="project_img" src={props.src} alt={props.alt}
-                sizes="(min-width: 1090px) 341px,
+                sizes="(min-width: 1090px) 30vw,
              (min-width: 650px) 40vw,  50vw"
-                srcSet={props.srcSet} loading="lazy"/>
+                srcSet={props.srcSet}/>
            
            <div className="project__summary">
                 <h2 className="project__summary__title">{props.name}</h2>

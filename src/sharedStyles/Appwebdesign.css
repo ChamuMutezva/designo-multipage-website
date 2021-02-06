@@ -1,4 +1,6 @@
-/* Button component */
+/************************************
+Button component
+******************************** */
 .btn__component {
   font-size: 0.9375rem;
   padding: 19px 28.5px;
@@ -9,6 +11,9 @@
   border-radius: 8px;
   width: 152px;
   margin-top: 24px;
+/************************************
+    End of Button component
+******************************** */
 }
 /*heading section, webdesign*/
 .hero__web {
@@ -24,7 +29,9 @@
   background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
 }
 
-/*main section webdesign*/
+/***************************************
+main section -  webdesign, appdesign and graphic design pages
+********************************************/
 .main__container {
   width: 87.2%;
   margin: auto;
@@ -66,8 +73,8 @@
   width: 100%;
   padding-top: 94px;
   padding-bottom: 0px;
-  flex-direction: row;
-  flex-wrap: wrap;
+ /* flex-direction: row;
+  flex-wrap: wrap; */
   gap: 40px 20px;
   justify-content: start;
 }
@@ -83,7 +90,9 @@
   padding-top: 100px;
   width: 100%;
 }
-/* active states */
+/****************************************
+ active states
+ *************************************** */
 .mainSectionWeb .additionalInfo__container:hover {
   background-color: var(--pri-color-peach);	
   cursor: pointer;

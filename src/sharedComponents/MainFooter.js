@@ -6,7 +6,7 @@ import twitter from '../assets/shared/desktop/icon-twitter.svg'
 import pinterest from '../assets/shared/desktop/icon-pinterest.svg'
 import youtube from '../assets/shared/desktop/icon-youtube.svg'
 import '../sharedStyles/Footer.css'
-//import './Footer.css'
+
 const MainFooter = () => {
     return (
         <div className="mainFooter">

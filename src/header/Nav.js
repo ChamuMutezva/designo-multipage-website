@@ -30,17 +30,17 @@ const Navigation = () => {
             <div className="nav__container">
                 <div className="nav">
                     <div className="nav__controls">
-                        <div className="logoContainer" aria-label="designo design">
+                        <div className="logoContainer">
                             <Link  tabIndex="0" to="/">
-                                <img src={Logo} alt="designo landing page" className="logo" tabIndex="0" />
+                                <img src={Logo} alt="designo landing page" className="logo"/>
                             </Link>
                         </div>
                     </div>
                     <div className="menu__ctrls">
-                        <button className={`menu__ctrls--btn btn--open ${ShowModal ? "closeBtn" : "openBtn"}`}><img src={Hamburger}
-                            onClick={displayModal} alt="open modal menu" tabIndex="0" /></button>
-                        <button className={`menu__ctrls--btn btn--close ${ShowModal ? "openBtn" : "closeBtn"}`}><img src={CloseMenu}
-                            onClick={displayModal} alt="close modal menu" tabIndex="0" /> </button>
+                        <button  tabIndex="0" className={`menu__ctrls--btn btn--open ${ShowModal ? "closeBtn" : "openBtn"}`}><img src={Hamburger}
+                            onClick={displayModal} alt="open modal menu"/></button>
+                        <button  tabIndex="0" className={`menu__ctrls--btn btn--close ${ShowModal ? "openBtn" : "closeBtn"}`}><img src={CloseMenu}
+                            onClick={displayModal} alt="close modal menu"/> </button>
                     </div>
                 </div>
 

@@ -108,26 +108,23 @@
     position: relative;
     flex-direction: row;
   }
-  .hero__container__about__main::after
-   {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 500px;
-    background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: 400px;
-    left: -161px;
-  }
+  .hero__container__about__main::after,
   .hero__container__about__main::before {
     position: absolute;
     content: "";
-    width: 50%;
-    height: 500px;
     background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
     background-repeat: no-repeat;
     z-index: -1;
+    height: 500px;  
+  }
+
+  .hero__container__about__main::after   {   
+    width: 100%;    
+    bottom: 400px;
+    left: -161px;
+  }
+  .hero__container__about__main::before {    
+    width: 50%;     
     bottom: -820px;
     right: -150px;
   }

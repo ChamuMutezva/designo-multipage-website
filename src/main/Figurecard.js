@@ -1,7 +1,7 @@
 const FigureCard = (props) => {
     return (
         <figure>
-            <img src={props.src} alt={props.alt} className="additionalInfo__img" loading="lazy" />
+            <img src={props.src} alt={props.alt} className="additionalInfo__img" />
             <figcaption>
                 <h3>
                     {props.title}

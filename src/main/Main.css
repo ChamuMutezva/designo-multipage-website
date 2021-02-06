@@ -68,9 +68,10 @@
   padding-top: 120px;
   width: 87.2%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: 1fr;
+ /* flex-direction: column;
+  flex-wrap: nowrap; */
   row-gap: 80px;
   padding-bottom: 300.5px;
 }
@@ -216,8 +217,9 @@
     object-fit: cover;
   }
   .additionalInfo {
-    flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
   }
   .additional__info__home {

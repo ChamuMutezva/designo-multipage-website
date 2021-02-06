@@ -20,3 +20,6 @@ You will also see any lint errors in the console.
 
 ### Routing 
 Routing was done using  `react-router-dom` for the navigation between pages.
+
+### Reset css file
+The reset.css file was downloaded from (http://meyerweb.com/eric/tools/css/reset/)
