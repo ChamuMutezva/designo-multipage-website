@@ -1,3 +1,6 @@
+.nav__links {
+  text-transform: uppercase;
+}
 .HeaderControl {
   position: relative;
 }

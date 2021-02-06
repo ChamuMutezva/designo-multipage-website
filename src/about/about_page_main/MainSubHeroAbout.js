@@ -15,7 +15,7 @@ const Mainsubhero = () => {
         <div className="hero__container hero__container__about hero__about__spacer hero__about__spacer__bottom">
             <div className="hero_image_about">
                 <img src={RealDealMobile}
-                    sizes="(min-width: 890px) 476px, (min-width: 550px) 50vw,  100vw"
+                    sizes="(min-width: 890px) 30vw, (min-width: 550px) 50vw,  100vw"
                     srcSet={`${RealDealMobile} 375w, ${RealDealTablet} 689w,
                             ${RealDealDesktop} 476w`} alt="the real deal" />
             </div>

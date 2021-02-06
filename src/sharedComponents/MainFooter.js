@@ -18,9 +18,9 @@ const MainFooter = () => {
 
             <div className="footer__menu">
                 <ul className="footer__menuList">
-                    <li><Link tabIndex="0" to="/about">OUR COMPANY</Link></li>
-                    <li><Link tabIndex="0" to="/locations">LOCATIONS</Link></li>
-                    <li><Link tabIndex="0" to="/contact">CONTACT</Link></li>
+                    <li><Link tabIndex="0" to="/about" className="nav__links">our company</Link></li>
+                    <li><Link tabIndex="0" to="/locations" className="nav__links">locations</Link></li>
+                    <li><Link tabIndex="0" to="/contact" className="nav__links">contact</Link></li>
                 </ul>
             </div>
 

@@ -25,6 +25,7 @@
   color: var(--pri-color-white);
   margin: auto auto 29px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .hero__btn__about:hover {
 	background-color: var(--sec-color-ltpeach);

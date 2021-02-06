@@ -6,6 +6,7 @@
 }
 .countrycard__contact .additionalInfo__title {
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 form {
   width: 87.2%;

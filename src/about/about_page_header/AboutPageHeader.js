@@ -11,7 +11,7 @@ const Aboutpageheader = () => {
             <div className="hero__container hero__container__about">
                 <div className="hero_image_about">
                     <img src={HeroMobile}
-                     sizes="(min-width: 1090px) 476px, (min-width: 550px) 50vw,  100vw"
+                     sizes="(min-width: 1090px) 30vw, (min-width: 550px) 50vw,  100vw"
                      srcSet={`${HeroMobile} 375w, ${HeroTablet} 689w,
                             ${HeroDesktop} 476w`}  alt=""/>
                 </div>
