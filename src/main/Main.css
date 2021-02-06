@@ -120,7 +120,7 @@
     margin: auto;
   }
   .project_img {
-    height: 200px;
+    height: 308px;
     width: 100%;
   }
   .projects {
@@ -210,10 +210,11 @@
   }
   .appdesign .project_img,
   .graphicdesign .project_img {
-    max-height: 308px;
+    height: 308px;
   }
   .webdesign .project_img {
     min-height: 100%;
+    height: 640px;
     object-fit: cover;
   }
   .additionalInfo {
