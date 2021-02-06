@@ -6,9 +6,11 @@ import blogrImg from '../../assets/web-design/desktop/image-blogr.jpg'
 import campImg from '../../assets/web-design/desktop/image-camp.jpg'
 import AdditionalInfoCard from '../../sharedComponents/AdditionalInfo'
 import '../../sharedStyles/Appwebdesign.css'
+import '../Web.css';
 
 
-const Webdesignmain = () => {
+const Webdesignmain = () => {    
+   
     return (
         <div className="main__container">
             <div className="additionalInfo additionalInfo__web">

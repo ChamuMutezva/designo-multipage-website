@@ -68,7 +68,7 @@
   padding-bottom: 0px;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px 20px;
   justify-content: start;
 }
 .mainSectionWeb {
@@ -92,6 +92,28 @@
 .mainSectionWeb .additionalInfo__container:hover p {
 	color: var(--pri-color-white);
 }
+
+/* *********************************
+ANIMATION
+*************************************/
+.animate_me {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+/********************************************************
+END ANIMATION
+***********************************************************/
 @media screen and (min-width: 720px) and (max-width: 850px) {
   .infoCard {
     width: 100%;
