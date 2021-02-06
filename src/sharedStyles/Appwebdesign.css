@@ -130,9 +130,8 @@
   .btn__component {
     margin-left: 60px;
   }
-  .hero__containerWeb .mainSection::before {
+  .mainSection.mainSectionWeb::before {
     height: 0;
-    
   }
   
 }
