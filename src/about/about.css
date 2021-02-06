@@ -96,6 +96,14 @@
     padding-bottom: 0px;
     flex-direction: row-reverse;
   }
+  .hero__about__spacer {    
+    margin-top: 160px;
+    margin-bottom: 100px;
+  }
+  .hero__about__spacer__bottom {
+    margin-top: 193px;
+    margin-bottom: 347px;
+}
   .hero__container__about__main {
     position: relative;
     flex-direction: row;
@@ -120,7 +128,7 @@
     background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
     background-repeat: no-repeat;
     z-index: -1;
-    bottom: -780px;
+    bottom: -820px;
     right: -150px;
   }
   .countryCard .additionalInfo__container {
