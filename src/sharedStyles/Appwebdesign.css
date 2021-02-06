@@ -68,6 +68,7 @@ main section -  webdesign, appdesign and graphic design pages
 }
 .countryCard .additionalInfo__title {  
   margin-bottom: 50px;  
+  text-transform: uppercase;
 }
 .mainSectionWeb .additionalInfo__web {
   width: 100%;
