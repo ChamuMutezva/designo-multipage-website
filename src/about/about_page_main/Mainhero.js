@@ -10,7 +10,7 @@ const Mainhero = () => {
         hero__container__about__main">
             <div className="hero_image_about">
                 <img src={TalentMobile}
-                    sizes="(min-width: 1090px) 30vw, (min-width: 550px) 50vw,  100vw"
+                    sizes="(min-width: 1090px) 30vw, (min-width: 550px) 100vw,  100vw"
                     srcSet={`${TalentMobile} 375w, ${TalentTablet} 689w,
                             ${TalentDesktop} 476w`} alt="world class talent" />
             </div>
