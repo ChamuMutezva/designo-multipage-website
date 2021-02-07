@@ -195,7 +195,7 @@ aside {
   }
   .aside__btn {
     width: 165px;
-    grid-area: 2/2/2/3;
+    grid-area: 1/2/2/3;
   }
   .aside__title {
     text-align: left;
@@ -203,7 +203,7 @@ aside {
     width: 50%;
   }
   aside {
-    top: -210px;
+    top: -215px;
     width: 77.2%;
     margin: auto;
     padding-bottom: 15px;
