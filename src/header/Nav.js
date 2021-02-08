@@ -12,13 +12,14 @@ import Webdesign from '../webdesign/webdesign'
 import Appdesign from '../appdesign/appdesign'
 import Graphicdesign from '../graphicdesign/graphicdesign'
 
-//import HeaderPrimary from "./HeaderPrimary"
-//import Logo1 from '../assets/shared/desktop/logo-light.png'
 import Logo from '../assets/shared/desktop/logo-dark.png'
 import Hamburger from '../assets/shared/mobile/icon-hamburger.svg'
 import CloseMenu from '../assets/shared/mobile/icon-close.svg'
 import './Header.css'
 
+//Function to scroll to top of page when navigating 
+//to a new page. at the end of a page focus of page will
+//be at the bottom of the page
 const ScrollToTop = () => {
     const { pathname } = useLocation();
   
