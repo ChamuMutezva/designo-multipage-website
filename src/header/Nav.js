@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import { useState } from 'react'
+import React from 'react'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 import About from '../about/About'
 import Location from '../locations/Locations'
@@ -8,6 +11,7 @@ import Home from '../homepage/home'
 import Webdesign from '../webdesign/webdesign'
 import Appdesign from '../appdesign/appdesign'
 import Graphicdesign from '../graphicdesign/graphicdesign'
+
 //import HeaderPrimary from "./HeaderPrimary"
 //import Logo1 from '../assets/shared/desktop/logo-light.png'
 import Logo from '../assets/shared/desktop/logo-dark.png'
@@ -15,6 +19,15 @@ import Hamburger from '../assets/shared/mobile/icon-hamburger.svg'
 import CloseMenu from '../assets/shared/mobile/icon-close.svg'
 import './Header.css'
 
+const ScrollToTop = () => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
 
 const Navigation = () => {
     const [ShowModal, setShowModal] = useState(true)
@@ -27,6 +40,7 @@ const Navigation = () => {
 
     return (
         <Router>
+            <ScrollToTop/>
             <div className="nav__container">
                 <div className="nav">
                     <div className="nav__controls">
